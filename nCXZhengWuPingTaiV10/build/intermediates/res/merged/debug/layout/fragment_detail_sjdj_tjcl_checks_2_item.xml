@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="@dimen/width_1_100"
+    android:orientation="horizontal" >
+
+    <ImageView
+        android:id="@+id/iv_checks_2"
+        android:layout_width="@dimen/width_5_100"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+         android:layout_marginBottom="@dimen/width_1_100"
+        android:layout_marginTop="@dimen/width_1_100"
+        android:layout_marginLeft="@dimen/width_3_100"
+        android:layout_marginRight="@dimen/width_3_100"
+        android:background="@drawable/radiobutton_checked"
+        android:contentDescription="@android:string/cancel"
+        android:gravity="center_vertical" />
+
+    <TextView
+        android:id="@+id/tv_detail_sjdj_tjcl_checks_2"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginRight="@dimen/width_10_100"
+        android:layout_weight="1"
+        android:gravity="center_vertical"
+        android:maxWidth="@dimen/width_60_100"
+        android:text="@string/shoulididian_"
+        android:textColor="@color/black"
+        android:textSize="@dimen/text_small_size" />
+
+</LinearLayout><!-- From: file:/F:/Studio_ZLH/NCXZhengWuPingTaiV1.0/nCXZhengWuPingTaiV10/src/main/res/layout/fragment_detail_sjdj_tjcl_checks_2_item.xml -->

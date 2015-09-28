@@ -1,0 +1,265 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- 查看版本 -->
+    <string name="edition_beizhu">\u0020\u0020\u0020\u0020\u0020\u0020\u0020\u0020备注：</string>
+    <string name="youxiaoqixian">有效期限：</string>
+    <string name="fazhengjiguan">发证机关：</string>
+    <string name="zhengzhaohaoma">证照号码：</string>
+    <string name="zhengzhaomingchen">证照名称：</string>
+    <string name="shengfenzhenghao">身份证号：</string>
+    <string name="select_edition_info">查看版本信息</string>
+    <string name="updata_edition_info">修改版本信息</string>
+    <string name="baocun">保存</string>
+    <string name="zhengzhaobanben">证照版本</string>
+
+    <!-- 配置信息 -->
+    <string name="oldpsd">\u0020\u0020\u0020\u0020原密码：</string>
+    <string name="newpsd">\u0020\u0020\u0020\u0020新密码：</string>
+    <string name="arginpsd">验证密码：</string>
+    <string name="update">更新</string>
+    <string name="update_userInfo">修改用户信息</string>
+    <string name="wdpz_address">\u0020\u0020\u0020\u0020\u0020\u0020\u0020\u0020\u0020\u0020\u0020\u0020地址：</string>
+    <string name="wdpz_fax_phone">\u0020\u0020\u0020\u0020传真电话：</string>
+    <string name="wdpz_moblie_phone">\u0020\u0020\u0020\u0020移动电话：</string>
+    <string name="wdpz_contact_number">\u0020\u0020\u0020\u0020联系电话：</string>
+    <string name="wdpz_job">\u0020\u0020\u0020\u0020\u0020\u0020\u0020\u0020\u0020\u0020\u0020\u0020职务：</string>
+    <string name="wdpz_gongzuobumen">\u0020\u0020\u0020\u0020工作部门：</string>
+    <string name="wdpz_IDnumber">身份证号码：</string>
+    <string name="wdpz_username">\u0020\u0020\u0020\u0020用户姓名：</string>
+    <string name="wdpz_danwei">本成员单位：</string>
+    <string name="wdpz_email">\u0020\u0020\u0020\u0020电子邮箱：</string>
+    <string name="wdpz_usernumber">\u0020\u0020\u0020\u0020用户账号：</string>
+
+    <!-- 统计报表 -->
+    <string name="yewuliang1">\u0020\u0020\u0020\u0020业务量\u0020\u0020：\u0020\u0020</string>
+    <string name="weibanjie1">\u0020\u0020\u0020\u0020未办结\u0020\u0020：\u0020\u0020</string>
+    <string name="banlichenggong1">办理成功\u0020\u0020：\u0020\u0020</string>
+    <string name="banlishibai1">办理失败\u0020\u0020：\u0020\u0020</string>
+    <string name="buyushouli1">不予受理\u0020\u0020：\u0020\u0020</string>
+    <string name="chaoshi1">\u0020\u0020\u0020\u0020\u0020\u0020\u0020\u0020超时\u0020\u0020：\u0020\u0020</string>
+    <string name="yifafang1">\u0020\u0020\u0020\u0020已发放\u0020\u0020：\u0020\u0020</string>
+    <string name="weifafang1">\u0020\u0020\u0020\u0020未发放\u0020\u0020：\u0020\u0020</string>
+    <string name="banjielv1">\u0020\u0020\u0020\u0020办结率\u0020\u0020：\u0020\u0020</string>
+    <string name="tjbb_tjqk">统计情况</string>
+    <string name="tjbb_tjqk_1">澄湖东路居委会</string>
+    <string name="tjbb_tjqk_2">练塘镇澄湖东路居委会</string>
+    <string name="tjbb_tjqk_3">莲塘政府前路居委会</string>
+
+    <!-- webservice url -->
+    <string name="namespace">http://tempuri.org</string>
+    <string name="endpoint_test">http://117.40.244.134:8081/Service/PortalSrv?wsdl</string>
+    <string name="endpoint">http://117.40.244.135:8082/Service/PortalSrv?wsdl</string>
+    <string name="app_name">南昌县政务平台</string>
+    <string name="action_settings">Settings</string>
+
+    <!-- login -->
+    <string name="login_checkbox">记住我的登录信息</string>
+    <string name="login">登  陆</string>
+    <string name="login_edit_username">请输入用户名</string>
+    <string name="login_edit_password">请输入密码</string>
+
+    <!-- 侧滑信息 -->
+    <string name="sliding_title_1">网上申请</string>
+    <string name="sliding_title_2">收件受理</string>
+    <string name="sliding_title_3">表单录入</string>
+    <string name="sliding_title_4">审批处理</string>
+    <string name="sliding_title_5">结果发放</string>
+    <string name="sliding_title_6">业务档案</string>
+    <string name="sliding_title_7">统计报表</string>
+    <string name="sliding_title_8">我的配置</string>
+    <string name="sliding_title_9">业务处理</string>
+    <string name="sliding_title_10">结果登记</string>
+    <string name="sliding_title_11">结果交付</string>
+    <string name="sliding_title_12">更多</string>
+    <string name="yushouliyewu">预受理业务</string>
+    <string name="shoujiandengji">收件登记</string>
+    <string name="yishouliyewu">已受理业务</string>
+    <string name="buyushouliyewu">不予受理业务</string>
+    <string name="yilurubiaodan">已录入表单</string>
+    <string name="dailurubiaodan">待录入表单</string>
+    <string name="daishenpi">待审批</string>
+    <string name="yishenpi">已审批</string>
+    <string name="yituihui">已退回</string>
+    <string name="daifafangliebiao">待发放列表</string>
+    <string name="yifafangliebiao">已发放列表</string>
+    <string name="daoqiweibanjieliebiao">到期未办结列表</string>
+    <string name="yewudanganchaxun">业务档案查询</string>
+    <string name="anfuwushixiangtongji">按服务事项统计</string>
+    <string name="anshoulijigoutongji">按受理机构统计</string>
+    <string name="anyewubumentongji">按业务部门统计</string>
+    <string name="gerenxinxi">个人信息</string>
+    <string name="xiugaimima">修改密码</string>
+    <string name="checkupdate">检查更新</string>
+    <string name="re_login">切换账号</string>
+    <!-- 存储服务器地址的文件名称 -->
+    <string name="config_file_name">config_produce_220</string>
+
+    <!-- 加载对话框 -->
+    <string name="data_loading">数据加载中…</string>
+    <string name="tip">提示</string>
+
+    <!-- 提示对话框 -->
+    <string name="ensure">确定</string>
+    <string name="cancel">取消</string>
+
+    <!-- 按钮文字 -->
+    <string name="detail">详情</string>
+    <string name="deny">不予受理</string>
+    <string name="accept">受理</string>
+    <string name="write_in">录入</string>
+    <string name="send">发放</string>
+    <string name="send_msg">发短信</string>
+
+    <!-- 搜索框 -->
+    <string name="more">更多</string>
+    <string name="search_apply_name">申请人姓名</string>
+    <string name="search_id_num">\u0020\u0020\u0020\u0020身份证号</string>
+    <string name="search_fuwushixiangming">服务事项名</string>
+    <string name="search_banjianfenlei">\u0020\u0020\u0020\u0020办件分类</string>
+    <string name="search_banjianliushuihao">办件流水号</string>
+    <string name="search_shenqingriqi">申请日期从</string>
+    <string name="search_banjianriqi">办件日期从</string>
+    <string name="search_to">\u0020\u0020\u0020\u0020\u0020\u0020\u0020\u0020\u0020\u0020\u0020\u0020\u0020\u0020\u0020\u0020至</string>
+    <string name="search_wangshangshoulihao">网上受理号</string>
+    <string name="search_banlizhuangtai">\u0020\u0020\u0020\u0020办理状态</string>
+    <string name="search_shenqingriqi_">\u0020\u0020\u0020\u0020申请日期</string>
+    <string name="search_banjieqixian">\u0020\u0020\u0020\u0020办结期限</string>
+    <string name="search_banjianriqi_">\u0020\u0020\u0020\u0020办件日期</string>
+    <string name="search_fafangriqi">\u0020\u0020\u0020\u0020发放日期</string>
+    <string name="search_chaoshitianshu">\u0020\u0020\u0020\u0020超时天数</string>
+    <string name="search_jieguoliebiao">结果列表</string>
+    <string name="search_yewusuochuhuanjie">\u0020\u0020\u0020\u0020业务环节</string>
+    <string name="search_danganzhuangtai">\u0020\u0020\u0020\u0020档案状态</string>
+    <string name="search_shoulidengjididian">受理登记点</string>
+    <string name="search_shouliren">\u0020\u0020\u0020\u0020\u0020\u0020\u0020\u0020受理人</string>
+    <string name="sjdj_next">下一步</string>
+    <string name="shoulijigou">\u0020\u0020\u0020\u0020受理机构</string>
+    <string name="fafangjigou">\u0020\u0020\u0020\u0020发放机构</string>
+    <string name="shoulirenyuan">\u0020\u0020\u0020\u0020受理人员</string>
+    <string name="shouliriqi">\u0020\u0020\u0020\u0020受理日期</string>
+    <string name="jingbanjigou">\u0020\u0020\u0020\u0020经办机构</string>
+    <string name="lururen">\u0020\u0020\u0020\u0020\u0020\u0020\u0020\u0020录入人</string>
+    <string name="lururiqi">\u0020\u0020\u0020\u0020录入日期</string>
+    <string name="luruzhuangtai">\u0020\u0020\u0020\u0020录入状态</string>
+    <string name="banlishixian">\u0020\u0020\u0020\u0020办理时限</string>
+    <string name="banliriqi">\u0020\u0020\u0020\u0020办理日期</string>
+    <string name="dengjiriqi">\u0020\u0020\u0020\u0020登记日期</string>
+    <string name="shifouchaoshi">\u0020\u0020\u0020\u0020是否超时</string>
+    <string name="jingbanren">\u0020\u0020\u0020\u0020\u0020\u0020\u0020\u0020经办人</string>
+    <string name="dengjiren">\u0020\u0020\u0020\u0020\u0020\u0020\u0020\u0020登记人</string>
+    <string name="fafangren">\u0020\u0020\u0020\u0020\u0020\u0020\u0020\u0020发放人</string>
+    <string name="jieshouren">\u0020\u0020\u0020\u0020\u0020\u0020\u0020\u0020接收人</string>
+    <string name="jieshouhaoma">\u0020\u0020\u0020\u0020接受号码</string>
+    <string name="duanxinneirong">\u0020\u0020\u0020\u0020短信内容</string>
+    <string name="fasongshijian">\u0020\u0020\u0020\u0020发送时间</string>
+    <string name="qianshouren">\u0020\u0020\u0020\u0020\u0020\u0020\u0020\u0020签收人</string>
+    <string name="beizhu">\u0020\u0020\u0020\u0020\u0020\u0020\u0020\u0020\u0020\u0020\u0020\u0020备注</string>
+    <string name="shenhejieguotupian">审核结果图片</string>
+    <string name="jieguojiaofu">结果交付图片</string>
+    <string name="banlijieguo">\u0020\u0020\u0020\u0020办理结果</string>
+    <string name="banlitiaojian">办理条件</string>
+    <string name="banlicailiao">办理材料</string>
+    <string name="shifoufuhe">是否符合</string>
+    <string name="shouqu">收取</string>
+    <string name="caiji">采集</string>
+    <string name="fanhui">返回</string>
+    <string name="wancheng">完成</string>
+    <string name="wanchengjinruxiayihuanjie">完成，进入下一环节</string>
+    <string name="shangchuan">上传</string>
+    <string name="banjieriqi">\u0020\u0020\u0020\u0020办结日期</string>
+    <string name="tijiaocailiao">提交材料</string>
+    <string name="yingshoucailiao">应收材料</string>
+    <string name="dianzicailiao">电子材料</string>
+    <string name="zuochujueding">\u0020\u0020做出决定</string>
+    <string name="shenhetongguo">审核通过</string>
+    <string name="shenhebutongguo">审核不通过</string>
+    <string name="tianxieyijian">填写意见：</string>
+    <string name="qianshourenshenfenzheng">签收人身份证</string>
+    <string name="wangshangyushoulihao">网上预受理号</string>
+    <string name="buyushouliyuanyin">不予受理原因</string>
+    <string name="qingxuanzhe">请根据申请人的实际情况做出选择:</string>
+    <string name="chakanxuanzhe">查看申请人选择的条件:</string>
+    <string name="xuanzhe">选择</string>
+    <string name="chakan">查看</string>
+    <string name="shi">是</string>
+    <string name="fou">否</string>
+    <string name="done_shouli">受理完成并返回</string>
+    <string name="done_bdlr">完成进入表单录入</string>
+    <string name="shenhechuli">审核处理</string>
+    <string name="shangchuanshenhejieguo">上传审核结果</string>
+    <string name="shangchuanfafangjieguo">上传发放结果</string>
+    <string name="shifoubenrenlingqu">是否本人领取</string>
+    <string name="lingqurenxingming">领取人姓名</string>
+    <string name="shenfenzhenghaoma">身份证号码</string>
+    <string name="ywxx">业务信息</string>
+    <string name="jiaofuwancheng">交付完成</string>
+    <string name="fanhuiliebiao">返回列表</string>
+    <string name="yewuliushuihao">业务流水号</string>
+    <string name="duanxintongzhi">短信通知</string>
+    <string name="tongzhineirong">通知内容</string>
+    <string name="buzhengyuanyin">补正原因</string>
+    <string name="zantingyuanyin">暂停原因</string>
+    <string name="zantingkaishishijian">暂停开始时间</string>
+     <string name="buzhengtongzhi">补正通知</string>
+     <string name="buzhengshouli">补正受理</string>
+    <string name="chenggong">成功</string>
+    <string name="shibai">失败</string>
+    <string name="fasong">发送</string>
+    <string name="shenqingrenshoujihaoma">申请人手机号码</string>
+    <string name="buzhengtongzhihaoma">补正通知号码</string>
+    <string name="buzhengtongzhicaozuoyuan">补正通知操作员</string>
+    <string name="fasongbingfanhui">发送并返回</string>
+    <string name="yewutuihui">业务退回</string>
+    <string name="tuihuiyuanyin">退回原因</string>
+    <string name="wanchengchuli">完成处理</string>
+    <string name="qingxuanzhetuihuiyuanyin">---请选择退回原因---</string>
+    <string name="fuheyixiaqingkuangzhiyi">符合以下情况之一 ：</string>
+    <string name="dianzizhengzhao">电子证照</string>
+    <string name="shifoushouqu">是否收取</string>
+    <!-- 收件受理里面的内容 -->
+    <string name="_name">姓\u0020\u0020\u0020\u0020\u0020\u0020\u0020\u0020名</string>
+    <string name="_numID">身\u0020份\u0020证\u0020号</string>
+    <string name="shenfenyanzheng">身份验证</string>
+    <string name="shenhefafang">审核发放</string>
+    <string name="lianxifangshi">联系方式</string>
+    <string name="shoujihaoma">\u0020\u0020\u0020\u0020手机号码</string>
+    <string name="dianziyoujian">\u0020\u0020\u0020\u0020电子邮件</string>
+    <string name="fashouduanxinhuizhi">\u0020\u0020\u0020\u0020发送短信回执</string>
+    <string name="shoulididian">\u0020\u0020\u0020\u0020受理地点</string>
+    <string name="shoulididian_">莲塘镇澄湖东路居委会</string>
+    <string name="chushendidian">\u0020\u0020\u0020\u0020初审地点</string>
+    <string name="fafangdidian">\u0020\u0020\u0020\u0020发放地点</string>
+    <string name="notice_1">(如申请人不在本辖区，请选择申请人所在的审核地点)</string>
+    <string name="notice_2">(请选择申请人想在的领取地)</string>
+    <string name="choose_family">选择方式</string>
+    <!-- radiobutton -->
+    <string name="jbxx">基本信息</string>
+    <string name="wsbd">网上表单</string>
+    <string name="fjck">附件查看</string>
+    <string name="sjdj">收件登记</string>
+    <string name="ywbd">业务表单</string>
+    <string name="dzcl">电子材料</string>
+    <string name="ffjl">发放记录</string>
+    <string name="jdks">街道科室</string>
+    <string name="ywbm">业务部门</string>
+    <string name="cyfw">常用服务</string>
+    <string name="djxx">登记信息</string>
+    <string name="dxfs">短信详情</string>
+    <string name="wxts">温馨提示</string>
+    <string name="bzxx">补正信息</string>
+    <string name="ztxx">暂停信息</string>
+
+    <string-array name="paizhao">
+        <item>拍照</item>
+        <item>从相册选择</item>
+    </string-array>
+    <string-array name="priture_show_menu">
+        <item>新建版本</item>
+        <item>删除版本</item>
+        <item>修改信息</item>
+        <item>查看信息</item>
+        <item>证照版本</item>
+    </string-array>
+
+</resources>

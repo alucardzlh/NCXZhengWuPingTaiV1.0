@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/NCXZhengWuPingTaiV1.0.iml" filepath="$PROJECT_DIR$/NCXZhengWuPingTaiV1.0.iml" />
+      <module fileurl="file://$PROJECT_DIR$/library/library.iml" filepath="$PROJECT_DIR$/library/library.iml" />
+      <module fileurl="file://$PROJECT_DIR$/nCXZhengWuPingTaiV10/nCXZhengWuPingTaiV10.iml" filepath="$PROJECT_DIR$/nCXZhengWuPingTaiV10/nCXZhengWuPingTaiV10.iml" />
+    </modules>
+  </component>
+</project>

@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical" >
+
+    <!-- 收件登记-街道科室item -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/height_1_100"
+        android:layout_marginRight="@dimen/height_1_100"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:id="@id/tv_sjdj_item"
+            android:layout_gravity="center_vertical"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/height_1_100"
+            android:layout_weight="9"
+            android:maxLength="25"
+            android:textStyle="bold"
+            android:singleLine="true"
+            android:text="@string/search_apply_name"
+            android:textColor="@color/black"
+            android:textSize="@dimen/text_middle_size" />
+
+        <ImageView
+            android:layout_marginRight="@dimen/height_1_100"
+            android:contentDescription="@string/app_name"
+            android:id="@id/iv_sjdj"
+            android:layout_width="0dp"
+            android:layout_gravity="center_vertical"
+            android:background="@drawable/sjdj_arrow"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.3" />
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_marginTop="@dimen/height_1_100"
+        android:layout_marginLeft="@dimen/height_2_100"
+        android:layout_marginRight="@dimen/height_2_100"
+        android:background="@drawable/bg_divider" />
+
+</LinearLayout><!-- From: file:/F:/Studio_ZLH/NCXZhengWuPingTaiV1.0/nCXZhengWuPingTaiV10/src/main/res/layout/layout_sjdj_custom_list_item_1.xml -->

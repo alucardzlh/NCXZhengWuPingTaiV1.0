@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="60dip"
+    android:layout_height="60dip"
+    android:gravity="center"
+    android:orientation="vertical" >
+
+    <ImageView
+        android:id="@id/iv_priture_show"
+        android:layout_width="60dip"
+        android:layout_height="80dip" />
+
+</LinearLayout><!-- From: file:/F:/Studio_ZLH/NCXZhengWuPingTaiV1.0/nCXZhengWuPingTaiV10/src/main/res/layout/item_priture_show.xml -->

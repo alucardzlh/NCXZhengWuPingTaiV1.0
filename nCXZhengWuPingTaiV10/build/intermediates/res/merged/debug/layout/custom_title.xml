@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@id/rl_title"
+    android:layout_width="fill_parent"
+    android:layout_height="40dp"
+    android:background="@drawable/title_main"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:id="@+id/ll_menu"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent" >
+
+        <ImageButton
+            android:id="@id/title_menu"
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:layout_gravity="center"
+            android:layout_marginLeft="@dimen/height_2_100"
+            android:background="@drawable/btn_title_menu"
+            android:contentDescription="@string/app_name" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/ll_search"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_alignParentRight="true"
+        android:visibility="gone">
+
+        <ImageButton
+            android:id="@id/title_search"
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:layout_gravity="center"
+            android:background="@drawable/title_search"
+            android:contentDescription="@string/app_name"
+            android:layout_marginRight="@dimen/width_3_100"
+            android:paddingBottom="@dimen/height_1_100"
+            android:paddingTop="@dimen/height_1_100"
+            />
+    </LinearLayout>
+
+</RelativeLayout><!-- From: file:/F:/Studio_ZLH/NCXZhengWuPingTaiV1.0/nCXZhengWuPingTaiV10/src/main/res/layout/custom_title.xml -->

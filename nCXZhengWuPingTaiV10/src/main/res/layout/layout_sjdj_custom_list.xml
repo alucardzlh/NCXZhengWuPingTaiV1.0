@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/blue_green"
+    android:orientation="vertical" >
+
+    <com.ZWPT.view.CustomTitle
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" >
+    </com.ZWPT.view.CustomTitle>
+
+    <include layout="@layout/layout_sjdj_search" />
+
+    <RadioGroup
+        android:id="@id/radiogroup"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/bg_radiogroup_title"
+        android:gravity="center_vertical"
+        android:orientation="horizontal" >
+
+        <RadioButton
+            android:id="@id/rb1"
+            android:layout_width="0dip"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@drawable/custom_button"
+            android:button="@null"
+            android:checked="true"
+            android:gravity="center"
+            android:paddingBottom="@dimen/height_1_100"
+            android:text="@string/jdks"
+            android:textColor="@color/black" />
+
+        <RadioButton
+            android:id="@id/rb2"
+            android:layout_width="0dip"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:button="@null"
+            android:gravity="center"
+            android:paddingBottom="@dimen/height_1_100"
+            android:text="@string/ywbm"
+            android:textColor="@color/black" />
+
+        <RadioButton
+            android:id="@id/rb3"
+            android:layout_width="0dip"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:button="@null"
+            android:gravity="center"
+            android:paddingBottom="@dimen/height_1_100"
+            android:text="@string/cyfw"
+            android:textColor="@color/black" />
+    </RadioGroup>
+    <!-- 收件登记-街道科室 -->
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="@dimen/height_1_100"
+        android:background="@drawable/linearlayout"
+        android:orientation="vertical" >
+
+        <ListView
+            android:id="@id/lv_base"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/height_1_100"
+            android:cacheColorHint="#00000000"
+            android:divider="#00000000"
+            android:dividerHeight="@dimen/height_1_100"
+            android:listSelector="@drawable/selector_popup_window_item_bg" >
+        </ListView>
+    </LinearLayout>
+
+</LinearLayout>

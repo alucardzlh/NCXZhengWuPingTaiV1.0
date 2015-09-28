@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="F:\Studio_ZLH\NCXZhengWuPingTaiV1.0\nCXZhengWuPingTaiV10\libs\nineoldandroids-2.4.0.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="59f19e43354d32de831379c23ce03bb259a4c2b7">
+        <dex dex="F:\Studio_ZLH\NCXZhengWuPingTaiV1.0\nCXZhengWuPingTaiV10\build\intermediates\pre-dexed\debug\nineoldandroids-2.4.0-79e3ca7b50535d1c76965084df3f81af5fa85a4c.jar" />
+    </item>
+    <item
+        jar="F:\Studio_ZLH\NCXZhengWuPingTaiV1.0\nCXZhengWuPingTaiV10\libs\umeng-update-v2.5.0.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="7bfd85d65a43fcf2cd343f11c13ad29bc3965a1f">
+        <dex dex="F:\Studio_ZLH\NCXZhengWuPingTaiV1.0\nCXZhengWuPingTaiV10\build\intermediates\pre-dexed\debug\umeng-update-v2.5.0-8dbea480f6e1994f91321639d6a3436c81464ed3.jar" />
+    </item>
+    <item
+        jar="F:\Studio_ZLH\NCXZhengWuPingTaiV1.0\nCXZhengWuPingTaiV10\libs\poi-3.8-beta4-20110826.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="cf57ad427c460f98f07817c07251c0d30098cbb8">
+        <dex dex="F:\Studio_ZLH\NCXZhengWuPingTaiV1.0\nCXZhengWuPingTaiV10\build\intermediates\pre-dexed\debug\poi-3.8-beta4-20110826-5085483a7ac6a456d5a35800404369255576bc7c.jar" />
+    </item>
+    <item
+        jar="F:\Studio_ZLH\NCXZhengWuPingTaiV1.0\nCXZhengWuPingTaiV10\build\intermediates\exploded-aar\com.android.support\support-v4\20.0.0\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="8694693636ab36910c8100ce527c258ff3ebece0">
+        <dex dex="F:\Studio_ZLH\NCXZhengWuPingTaiV1.0\nCXZhengWuPingTaiV10\build\intermediates\pre-dexed\debug\classes-ed50976f02c2a18ebb6ce3652f0eb9ce1418235b.jar" />
+    </item>
+    <item
+        jar="E:\ADT\sdk\extras\android\m2repository\com\android\support\support-annotations\20.0.0\support-annotations-20.0.0.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="9d9013e9ff35fc3756411e62873c363c70c638fa">
+        <dex dex="F:\Studio_ZLH\NCXZhengWuPingTaiV1.0\nCXZhengWuPingTaiV10\build\intermediates\pre-dexed\debug\support-annotations-20.0.0-ad981c32926d01d224a4a018f87ec59598b35ff8.jar" />
+    </item>
+    <item
+        jar="F:\Studio_ZLH\NCXZhengWuPingTaiV1.0\nCXZhengWuPingTaiV10\build\intermediates\exploded-aar\com.android.support\appcompat-v7\20.0.0\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="f21927d22fe31889ecce94dd697a2e75b137e0ef">
+        <dex dex="F:\Studio_ZLH\NCXZhengWuPingTaiV1.0\nCXZhengWuPingTaiV10\build\intermediates\pre-dexed\debug\classes-ee59c1fd20d9613bc3495cd1b24e583f62cdcebd.jar" />
+    </item>
+    <item
+        jar="F:\Studio_ZLH\NCXZhengWuPingTaiV1.0\nCXZhengWuPingTaiV10\libs\ksoap2-android-assembly-3.0.0.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="f8ddd5d69d8cdc994cde9af278ff79b06365eee3">
+        <dex dex="F:\Studio_ZLH\NCXZhengWuPingTaiV1.0\nCXZhengWuPingTaiV10\build\intermediates\pre-dexed\debug\ksoap2-android-assembly-3.0.0-1b761f1878047bdf2cdb80c235d97cdc862625de.jar" />
+    </item>
+    <item
+        jar="F:\Studio_ZLH\NCXZhengWuPingTaiV1.0\nCXZhengWuPingTaiV10\libs\poi-scratchpad-3.8-beta4-20110826.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="82ba64e839f28aa231f9f3a5f44ec5cb094f510c">
+        <dex dex="F:\Studio_ZLH\NCXZhengWuPingTaiV1.0\nCXZhengWuPingTaiV10\build\intermediates\pre-dexed\debug\poi-scratchpad-3.8-beta4-20110826-9d3faf2e029a7e15d509240b7bde605b7dc65dd1.jar" />
+    </item>
+    <item
+        jar="F:\Studio_ZLH\NCXZhengWuPingTaiV1.0\nCXZhengWuPingTaiV10\libs\androidannotations-api-2.7.1.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="064169e7aacaaa76f5a0ca5eea66e2fc02737a17">
+        <dex dex="F:\Studio_ZLH\NCXZhengWuPingTaiV1.0\nCXZhengWuPingTaiV10\build\intermediates\pre-dexed\debug\androidannotations-api-2.7.1-e701c1b28723c729f1d8739f8bdaf7ea29877cf9.jar" />
+    </item>
+    <item
+        jar="F:\Studio_ZLH\NCXZhengWuPingTaiV1.0\nCXZhengWuPingTaiV10\build\intermediates\exploded-aar\com.android.support\support-v4\20.0.0\jars\libs\internal_impl-20.0.0.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="e40b3078e3fbd353c9f44da8df25a8fc0078209d">
+        <dex dex="F:\Studio_ZLH\NCXZhengWuPingTaiV1.0\nCXZhengWuPingTaiV10\build\intermediates\pre-dexed\debug\internal_impl-20.0.0-6cc009efb6a64fca16b882965a992328c25265bb.jar" />
+    </item>
+    <item
+        jar="F:\Studio_ZLH\NCXZhengWuPingTaiV1.0\nCXZhengWuPingTaiV10\build\intermediates\exploded-aar\NCXZhengWuPingTaiV1.0\library\unspecified\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="6f84b85c9e433734600b3b6fa7afc0eefc14e37b">
+        <dex dex="F:\Studio_ZLH\NCXZhengWuPingTaiV1.0\nCXZhengWuPingTaiV10\build\intermediates\pre-dexed\debug\classes-8f202ee83b2ff9c44b31ed8bb5ed935985582825.jar" />
+    </item>
+
+</items>

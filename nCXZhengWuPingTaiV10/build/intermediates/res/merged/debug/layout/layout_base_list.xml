@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/blue_green"
+    android:orientation="vertical" >
+
+    <com.ZWPT.view.CustomTitle
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" >
+    </com.ZWPT.view.CustomTitle>
+
+    <!--
+         <FrameLayout 
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+    -->
+
+    <com.ZWPT.view.CustomSearchView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+    </com.ZWPT.view.CustomSearchView>
+
+    <ListView
+        android:id="@id/lv_base"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_margin="@dimen/height_1_100"
+        android:layout_weight="1"
+        android:cacheColorHint="@android:color/transparent"
+        android:divider="#00000000"
+        android:dividerHeight="@dimen/height_1_100"
+        android:listSelector="@android:color/transparent"
+        android:scrollbars="none" />
+    <!-- </FrameLayout> -->
+
+</LinearLayout><!-- From: file:/F:/Studio_ZLH/NCXZhengWuPingTaiV1.0/nCXZhengWuPingTaiV10/src/main/res/layout/layout_base_list.xml -->

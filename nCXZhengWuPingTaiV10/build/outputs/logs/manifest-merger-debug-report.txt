@@ -1,0 +1,334 @@
+-- Merging decision tree log ---
+manifest
+ADDED from F:\Studio_ZLH\NCXZhengWuPingTaiV1.0\nCXZhengWuPingTaiV10\src\main\AndroidManifest.xml:2:1-159:12
+	package
+		ADDED from F:\Studio_ZLH\NCXZhengWuPingTaiV1.0\nCXZhengWuPingTaiV10\src\main\AndroidManifest.xml:3:5-32
+		INJECTED from F:\Studio_ZLH\NCXZhengWuPingTaiV1.0\nCXZhengWuPingTaiV10\src\main\AndroidManifest.xml
+		INJECTED from F:\Studio_ZLH\NCXZhengWuPingTaiV1.0\nCXZhengWuPingTaiV10\src\main\AndroidManifest.xml
+	android:versionName
+		ADDED from F:\Studio_ZLH\NCXZhengWuPingTaiV1.0\nCXZhengWuPingTaiV10\src\main\AndroidManifest.xml:5:5-32
+	android:versionCode
+		ADDED from F:\Studio_ZLH\NCXZhengWuPingTaiV1.0\nCXZhengWuPingTaiV10\src\main\AndroidManifest.xml:4:5-29
+		INJECTED from F:\Studio_ZLH\NCXZhengWuPingTaiV1.0\nCXZhengWuPingTaiV10\src\main\AndroidManifest.xml
+		INJECTED from F:\Studio_ZLH\NCXZhengWuPingTaiV1.0\nCXZhengWuPingTaiV10\src\main\AndroidManifest.xml
+	xmlns:android
+		ADDED from F:\Studio_ZLH\NCXZhengWuPingTaiV1.0\nCXZhengWuPingTaiV10\src\main\AndroidManifest.xml:2:11-69
+uses-sdk
+ADDED from F:\Studio_ZLH\NCXZhengWuPingTaiV1.0\nCXZhengWuPingTaiV10\src\main\AndroidManifest.xml:7:5-9:41
+MERGED from [NCXZhengWuPingTaiV1.0:library:unspecified] F:\Studio_ZLH\NCXZhengWuPingTaiV1.0\nCXZhengWuPingTaiV10\build\intermediates\exploded-aar\NCXZhengWuPingTaiV1.0\library\unspecified\AndroidManifest.xml:7:5-9:40
+MERGED from [com.android.support:support-v4:20.0.0] F:\Studio_ZLH\NCXZhengWuPingTaiV1.0\nCXZhengWuPingTaiV10\build\intermediates\exploded-aar\com.android.support\support-v4\20.0.0\AndroidManifest.xml:16:5-42
+MERGED from [com.android.support:appcompat-v7:20.0.0] F:\Studio_ZLH\NCXZhengWuPingTaiV1.0\nCXZhengWuPingTaiV10\build\intermediates\exploded-aar\com.android.support\appcompat-v7\20.0.0\AndroidManifest.xml:16:5-42
+MERGED from [com.android.support:support-v4:20.0.0] F:\Studio_ZLH\NCXZhengWuPingTaiV1.0\nCXZhengWuPingTaiV10\build\intermediates\exploded-aar\com.android.support\support-v4\20.0.0\AndroidManifest.xml:16:5-42
+	android:targetSdkVersion
+		ADDED from F:\Studio_ZLH\NCXZhengWuPingTaiV1.0\nCXZhengWuPingTaiV10\src\main\AndroidManifest.xml:9:9-38
+		INJECTED from F:\Studio_ZLH\NCXZhengWuPingTaiV1.0\nCXZhengWuPingTaiV10\src\main\AndroidManifest.xml
+		INJECTED from F:\Studio_ZLH\NCXZhengWuPingTaiV1.0\nCXZhengWuPingTaiV10\src\main\AndroidManifest.xml
+	android:minSdkVersion
+		ADDED from F:\Studio_ZLH\NCXZhengWuPingTaiV1.0\nCXZhengWuPingTaiV10\src\main\AndroidManifest.xml:8:9-35
+		INJECTED from F:\Studio_ZLH\NCXZhengWuPingTaiV1.0\nCXZhengWuPingTaiV10\src\main\AndroidManifest.xml
+		INJECTED from F:\Studio_ZLH\NCXZhengWuPingTaiV1.0\nCXZhengWuPingTaiV10\src\main\AndroidManifest.xml
+uses-permission#android.permission.ACCESS_FINE_LOCATION
+ADDED from F:\Studio_ZLH\NCXZhengWuPingTaiV1.0\nCXZhengWuPingTaiV10\src\main\AndroidManifest.xml:11:5-79
+	android:name
+		ADDED from F:\Studio_ZLH\NCXZhengWuPingTaiV1.0\nCXZhengWuPingTaiV10\src\main\AndroidManifest.xml:11:22-76
+uses-permission#android.permission.ACCESS_WIFI_STATE
+ADDED from F:\Studio_ZLH\NCXZhengWuPingTaiV1.0\nCXZhengWuPingTaiV10\src\main\AndroidManifest.xml:12:5-76
+	android:name
+		ADDED from F:\Studio_ZLH\NCXZhengWuPingTaiV1.0\nCXZhengWuPingTaiV10\src\main\AndroidManifest.xml:12:22-73
+uses-permission#android.permission.CHANGE_WIFI_STATE
+ADDED from F:\Studio_ZLH\NCXZhengWuPingTaiV1.0\nCXZhengWuPingTaiV10\src\main\AndroidManifest.xml:13:5-76
+	android:name
+		ADDED from F:\Studio_ZLH\NCXZhengWuPingTaiV1.0\nCXZhengWuPingTaiV10\src\main\AndroidManifest.xml:13:22-73
+uses-permission#android.permission.ACCESS_COARSE_LOCATION
+ADDED from F:\Studio_ZLH\NCXZhengWuPingTaiV1.0\nCXZhengWuPingTaiV10\src\main\AndroidManifest.xml:14:5-81
+	android:name
+		ADDED from F:\Studio_ZLH\NCXZhengWuPingTaiV1.0\nCXZhengWuPingTaiV10\src\main\AndroidManifest.xml:14:22-78
+uses-permission#android.permission.MOUNT_UNMOUNT_FILESYSTEMS
+ADDED from F:\Studio_ZLH\NCXZhengWuPingTaiV1.0\nCXZhengWuPingTaiV10\src\main\AndroidManifest.xml:15:5-84
+	android:name
+		ADDED from F:\Studio_ZLH\NCXZhengWuPingTaiV1.0\nCXZhengWuPingTaiV10\src\main\AndroidManifest.xml:15:22-81
+uses-permission#android.permission.READ_LOGS
+ADDED from F:\Studio_ZLH\NCXZhengWuPingTaiV1.0\nCXZhengWuPingTaiV10\src\main\AndroidManifest.xml:16:5-68
+	android:name
+		ADDED from F:\Studio_ZLH\NCXZhengWuPingTaiV1.0\nCXZhengWuPingTaiV10\src\main\AndroidManifest.xml:16:22-65
+uses-permission#android.permission.SYSTEM_ALERT_WINDOW
+ADDED from F:\Studio_ZLH\NCXZhengWuPingTaiV1.0\nCXZhengWuPingTaiV10\src\main\AndroidManifest.xml:17:5-78
+	android:name
+		ADDED from F:\Studio_ZLH\NCXZhengWuPingTaiV1.0\nCXZhengWuPingTaiV10\src\main\AndroidManifest.xml:17:22-75
+uses-permission#android.permission.GET_TASKS
+ADDED from F:\Studio_ZLH\NCXZhengWuPingTaiV1.0\nCXZhengWuPingTaiV10\src\main\AndroidManifest.xml:18:5-68
+	android:name
+		ADDED from F:\Studio_ZLH\NCXZhengWuPingTaiV1.0\nCXZhengWuPingTaiV10\src\main\AndroidManifest.xml:18:22-65
+uses-permission#android.permission.INTERNET
+ADDED from F:\Studio_ZLH\NCXZhengWuPingTaiV1.0\nCXZhengWuPingTaiV10\src\main\AndroidManifest.xml:19:5-67
+	android:name
+		ADDED from F:\Studio_ZLH\NCXZhengWuPingTaiV1.0\nCXZhengWuPingTaiV10\src\main\AndroidManifest.xml:19:22-64
+uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
+ADDED from F:\Studio_ZLH\NCXZhengWuPingTaiV1.0\nCXZhengWuPingTaiV10\src\main\AndroidManifest.xml:20:5-81
+	android:name
+		ADDED from F:\Studio_ZLH\NCXZhengWuPingTaiV1.0\nCXZhengWuPingTaiV10\src\main\AndroidManifest.xml:20:22-78
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from F:\Studio_ZLH\NCXZhengWuPingTaiV1.0\nCXZhengWuPingTaiV10\src\main\AndroidManifest.xml:21:5-79
+	android:name
+		ADDED from F:\Studio_ZLH\NCXZhengWuPingTaiV1.0\nCXZhengWuPingTaiV10\src\main\AndroidManifest.xml:21:22-76
+uses-permission#android.permission.READ_PHONE_STATE
+ADDED from F:\Studio_ZLH\NCXZhengWuPingTaiV1.0\nCXZhengWuPingTaiV10\src\main\AndroidManifest.xml:22:5-75
+	android:name
+		ADDED from F:\Studio_ZLH\NCXZhengWuPingTaiV1.0\nCXZhengWuPingTaiV10\src\main\AndroidManifest.xml:22:22-72
+uses-permission#android.permission.CALL_PHONE
+ADDED from F:\Studio_ZLH\NCXZhengWuPingTaiV1.0\nCXZhengWuPingTaiV10\src\main\AndroidManifest.xml:24:5-69
+	android:name
+		ADDED from F:\Studio_ZLH\NCXZhengWuPingTaiV1.0\nCXZhengWuPingTaiV10\src\main\AndroidManifest.xml:24:22-66
+uses-permission#android.permission.VIBRATE
+ADDED from F:\Studio_ZLH\NCXZhengWuPingTaiV1.0\nCXZhengWuPingTaiV10\src\main\AndroidManifest.xml:26:5-66
+	android:name
+		ADDED from F:\Studio_ZLH\NCXZhengWuPingTaiV1.0\nCXZhengWuPingTaiV10\src\main\AndroidManifest.xml:26:22-63
+application
+ADDED from F:\Studio_ZLH\NCXZhengWuPingTaiV1.0\nCXZhengWuPingTaiV10\src\main\AndroidManifest.xml:28:5-157:19
+MERGED from [com.android.support:support-v4:20.0.0] F:\Studio_ZLH\NCXZhengWuPingTaiV1.0\nCXZhengWuPingTaiV10\build\intermediates\exploded-aar\com.android.support\support-v4\20.0.0\AndroidManifest.xml:17:5-19
+MERGED from [com.android.support:appcompat-v7:20.0.0] F:\Studio_ZLH\NCXZhengWuPingTaiV1.0\nCXZhengWuPingTaiV10\build\intermediates\exploded-aar\com.android.support\appcompat-v7\20.0.0\AndroidManifest.xml:17:5-19
+MERGED from [com.android.support:support-v4:20.0.0] F:\Studio_ZLH\NCXZhengWuPingTaiV1.0\nCXZhengWuPingTaiV10\build\intermediates\exploded-aar\com.android.support\support-v4\20.0.0\AndroidManifest.xml:17:5-19
+	android:label
+		ADDED from F:\Studio_ZLH\NCXZhengWuPingTaiV1.0\nCXZhengWuPingTaiV10\src\main\AndroidManifest.xml:32:9-41
+	android:allowBackup
+		ADDED from F:\Studio_ZLH\NCXZhengWuPingTaiV1.0\nCXZhengWuPingTaiV10\src\main\AndroidManifest.xml:30:9-35
+	android:icon
+		ADDED from F:\Studio_ZLH\NCXZhengWuPingTaiV1.0\nCXZhengWuPingTaiV10\src\main\AndroidManifest.xml:31:9-45
+	android:theme
+		ADDED from F:\Studio_ZLH\NCXZhengWuPingTaiV1.0\nCXZhengWuPingTaiV10\src\main\AndroidManifest.xml:33:9-62
+	android:name
+		ADDED from F:\Studio_ZLH\NCXZhengWuPingTaiV1.0\nCXZhengWuPingTaiV10\src\main\AndroidManifest.xml:29:9-53
+activity#com.ZWPT.activity.LoadingActivity_
+ADDED from F:\Studio_ZLH\NCXZhengWuPingTaiV1.0\nCXZhengWuPingTaiV10\src\main\AndroidManifest.xml:34:9-43:20
+	android:screenOrientation
+		ADDED from F:\Studio_ZLH\NCXZhengWuPingTaiV1.0\nCXZhengWuPingTaiV10\src\main\AndroidManifest.xml:37:13-49
+	android:configChanges
+		ADDED from F:\Studio_ZLH\NCXZhengWuPingTaiV1.0\nCXZhengWuPingTaiV10\src\main\AndroidManifest.xml:36:13-63
+	android:name
+		ADDED from F:\Studio_ZLH\NCXZhengWuPingTaiV1.0\nCXZhengWuPingTaiV10\src\main\AndroidManifest.xml:35:13-62
+intent-filter#android.intent.action.MAIN+android.intent.category.LAUNCHER
+ADDED from F:\Studio_ZLH\NCXZhengWuPingTaiV1.0\nCXZhengWuPingTaiV10\src\main\AndroidManifest.xml:38:13-42:29
+action#android.intent.action.MAIN
+ADDED from F:\Studio_ZLH\NCXZhengWuPingTaiV1.0\nCXZhengWuPingTaiV10\src\main\AndroidManifest.xml:39:17-69
+	android:name
+		ADDED from F:\Studio_ZLH\NCXZhengWuPingTaiV1.0\nCXZhengWuPingTaiV10\src\main\AndroidManifest.xml:39:25-66
+category#android.intent.category.LAUNCHER
+ADDED from F:\Studio_ZLH\NCXZhengWuPingTaiV1.0\nCXZhengWuPingTaiV10\src\main\AndroidManifest.xml:41:17-77
+	android:name
+		ADDED from F:\Studio_ZLH\NCXZhengWuPingTaiV1.0\nCXZhengWuPingTaiV10\src\main\AndroidManifest.xml:41:27-74
+activity#com.ZWPT.activity.First_Main_Activity_
+ADDED from F:\Studio_ZLH\NCXZhengWuPingTaiV1.0\nCXZhengWuPingTaiV10\src\main\AndroidManifest.xml:44:9-48:52
+	android:screenOrientation
+		ADDED from F:\Studio_ZLH\NCXZhengWuPingTaiV1.0\nCXZhengWuPingTaiV10\src\main\AndroidManifest.xml:48:13-49
+	android:label
+		ADDED from F:\Studio_ZLH\NCXZhengWuPingTaiV1.0\nCXZhengWuPingTaiV10\src\main\AndroidManifest.xml:47:13-45
+	android:configChanges
+		ADDED from F:\Studio_ZLH\NCXZhengWuPingTaiV1.0\nCXZhengWuPingTaiV10\src\main\AndroidManifest.xml:46:13-63
+	android:name
+		ADDED from F:\Studio_ZLH\NCXZhengWuPingTaiV1.0\nCXZhengWuPingTaiV10\src\main\AndroidManifest.xml:45:13-66
+activity#com.ZWPT.activity.MainActivity_
+ADDED from F:\Studio_ZLH\NCXZhengWuPingTaiV1.0\nCXZhengWuPingTaiV10\src\main\AndroidManifest.xml:49:9-53:52
+	android:screenOrientation
+		ADDED from F:\Studio_ZLH\NCXZhengWuPingTaiV1.0\nCXZhengWuPingTaiV10\src\main\AndroidManifest.xml:53:13-49
+	android:label
+		ADDED from F:\Studio_ZLH\NCXZhengWuPingTaiV1.0\nCXZhengWuPingTaiV10\src\main\AndroidManifest.xml:52:13-45
+	android:configChanges
+		ADDED from F:\Studio_ZLH\NCXZhengWuPingTaiV1.0\nCXZhengWuPingTaiV10\src\main\AndroidManifest.xml:51:13-63
+	android:name
+		ADDED from F:\Studio_ZLH\NCXZhengWuPingTaiV1.0\nCXZhengWuPingTaiV10\src\main\AndroidManifest.xml:50:13-59
+activity#com.ZWPT.activity.LoginActivity_
+ADDED from F:\Studio_ZLH\NCXZhengWuPingTaiV1.0\nCXZhengWuPingTaiV10\src\main\AndroidManifest.xml:54:9-58:52
+	android:screenOrientation
+		ADDED from F:\Studio_ZLH\NCXZhengWuPingTaiV1.0\nCXZhengWuPingTaiV10\src\main\AndroidManifest.xml:58:13-49
+	android:label
+		ADDED from F:\Studio_ZLH\NCXZhengWuPingTaiV1.0\nCXZhengWuPingTaiV10\src\main\AndroidManifest.xml:57:13-45
+	android:configChanges
+		ADDED from F:\Studio_ZLH\NCXZhengWuPingTaiV1.0\nCXZhengWuPingTaiV10\src\main\AndroidManifest.xml:56:13-63
+	android:name
+		ADDED from F:\Studio_ZLH\NCXZhengWuPingTaiV1.0\nCXZhengWuPingTaiV10\src\main\AndroidManifest.xml:55:13-60
+activity#com.ZWPT.activity.Base_ListActivity_
+ADDED from F:\Studio_ZLH\NCXZhengWuPingTaiV1.0\nCXZhengWuPingTaiV10\src\main\AndroidManifest.xml:59:9-63:52
+	android:screenOrientation
+		ADDED from F:\Studio_ZLH\NCXZhengWuPingTaiV1.0\nCXZhengWuPingTaiV10\src\main\AndroidManifest.xml:63:13-49
+	android:label
+		ADDED from F:\Studio_ZLH\NCXZhengWuPingTaiV1.0\nCXZhengWuPingTaiV10\src\main\AndroidManifest.xml:62:13-45
+	android:configChanges
+		ADDED from F:\Studio_ZLH\NCXZhengWuPingTaiV1.0\nCXZhengWuPingTaiV10\src\main\AndroidManifest.xml:61:13-63
+	android:name
+		ADDED from F:\Studio_ZLH\NCXZhengWuPingTaiV1.0\nCXZhengWuPingTaiV10\src\main\AndroidManifest.xml:60:13-64
+activity#com.ZWPT.activity.Sjsl_Sjdj_MainActivity_
+ADDED from F:\Studio_ZLH\NCXZhengWuPingTaiV1.0\nCXZhengWuPingTaiV10\src\main\AndroidManifest.xml:64:9-68:52
+	android:screenOrientation
+		ADDED from F:\Studio_ZLH\NCXZhengWuPingTaiV1.0\nCXZhengWuPingTaiV10\src\main\AndroidManifest.xml:68:13-49
+	android:label
+		ADDED from F:\Studio_ZLH\NCXZhengWuPingTaiV1.0\nCXZhengWuPingTaiV10\src\main\AndroidManifest.xml:67:13-45
+	android:configChanges
+		ADDED from F:\Studio_ZLH\NCXZhengWuPingTaiV1.0\nCXZhengWuPingTaiV10\src\main\AndroidManifest.xml:66:13-63
+	android:name
+		ADDED from F:\Studio_ZLH\NCXZhengWuPingTaiV1.0\nCXZhengWuPingTaiV10\src\main\AndroidManifest.xml:65:13-69
+activity#com.ZWPT.activity.Sjsl_Sjdj_shouli_Activity_
+ADDED from F:\Studio_ZLH\NCXZhengWuPingTaiV1.0\nCXZhengWuPingTaiV10\src\main\AndroidManifest.xml:69:9-71:48
+	android:label
+		ADDED from F:\Studio_ZLH\NCXZhengWuPingTaiV1.0\nCXZhengWuPingTaiV10\src\main\AndroidManifest.xml:71:13-45
+	android:name
+		ADDED from F:\Studio_ZLH\NCXZhengWuPingTaiV1.0\nCXZhengWuPingTaiV10\src\main\AndroidManifest.xml:70:13-72
+activity#com.ZWPT.activity.Base_DetailActivity_
+ADDED from F:\Studio_ZLH\NCXZhengWuPingTaiV1.0\nCXZhengWuPingTaiV10\src\main\AndroidManifest.xml:72:9-76:52
+	android:screenOrientation
+		ADDED from F:\Studio_ZLH\NCXZhengWuPingTaiV1.0\nCXZhengWuPingTaiV10\src\main\AndroidManifest.xml:76:13-49
+	android:label
+		ADDED from F:\Studio_ZLH\NCXZhengWuPingTaiV1.0\nCXZhengWuPingTaiV10\src\main\AndroidManifest.xml:75:13-45
+	android:configChanges
+		ADDED from F:\Studio_ZLH\NCXZhengWuPingTaiV1.0\nCXZhengWuPingTaiV10\src\main\AndroidManifest.xml:74:13-63
+	android:name
+		ADDED from F:\Studio_ZLH\NCXZhengWuPingTaiV1.0\nCXZhengWuPingTaiV10\src\main\AndroidManifest.xml:73:13-66
+activity#com.ZWPT.activity.Tjbb_Sljg_Tjlb_Activity_
+ADDED from F:\Studio_ZLH\NCXZhengWuPingTaiV1.0\nCXZhengWuPingTaiV10\src\main\AndroidManifest.xml:77:9-80:52
+	android:screenOrientation
+		ADDED from F:\Studio_ZLH\NCXZhengWuPingTaiV1.0\nCXZhengWuPingTaiV10\src\main\AndroidManifest.xml:80:13-49
+	android:configChanges
+		ADDED from F:\Studio_ZLH\NCXZhengWuPingTaiV1.0\nCXZhengWuPingTaiV10\src\main\AndroidManifest.xml:79:13-63
+	android:name
+		ADDED from F:\Studio_ZLH\NCXZhengWuPingTaiV1.0\nCXZhengWuPingTaiV10\src\main\AndroidManifest.xml:78:13-70
+activity#com.ZWPT.activity.Wdpz_User_Info_Activity_
+ADDED from F:\Studio_ZLH\NCXZhengWuPingTaiV1.0\nCXZhengWuPingTaiV10\src\main\AndroidManifest.xml:81:9-84:52
+	android:screenOrientation
+		ADDED from F:\Studio_ZLH\NCXZhengWuPingTaiV1.0\nCXZhengWuPingTaiV10\src\main\AndroidManifest.xml:84:13-49
+	android:configChanges
+		ADDED from F:\Studio_ZLH\NCXZhengWuPingTaiV1.0\nCXZhengWuPingTaiV10\src\main\AndroidManifest.xml:83:13-63
+	android:name
+		ADDED from F:\Studio_ZLH\NCXZhengWuPingTaiV1.0\nCXZhengWuPingTaiV10\src\main\AndroidManifest.xml:82:13-70
+activity#com.ZWPT.activity.PritureShowActivity_
+ADDED from F:\Studio_ZLH\NCXZhengWuPingTaiV1.0\nCXZhengWuPingTaiV10\src\main\AndroidManifest.xml:85:9-88:52
+	android:screenOrientation
+		ADDED from F:\Studio_ZLH\NCXZhengWuPingTaiV1.0\nCXZhengWuPingTaiV10\src\main\AndroidManifest.xml:88:13-49
+	android:configChanges
+		ADDED from F:\Studio_ZLH\NCXZhengWuPingTaiV1.0\nCXZhengWuPingTaiV10\src\main\AndroidManifest.xml:87:13-63
+	android:name
+		ADDED from F:\Studio_ZLH\NCXZhengWuPingTaiV1.0\nCXZhengWuPingTaiV10\src\main\AndroidManifest.xml:86:13-66
+activity#com.ZWPT.activity.ChiocePritureMethodActiivty_
+ADDED from F:\Studio_ZLH\NCXZhengWuPingTaiV1.0\nCXZhengWuPingTaiV10\src\main\AndroidManifest.xml:89:9-93:56
+	android:screenOrientation
+		ADDED from F:\Studio_ZLH\NCXZhengWuPingTaiV1.0\nCXZhengWuPingTaiV10\src\main\AndroidManifest.xml:92:13-49
+	android:configChanges
+		ADDED from F:\Studio_ZLH\NCXZhengWuPingTaiV1.0\nCXZhengWuPingTaiV10\src\main\AndroidManifest.xml:91:13-63
+	android:theme
+		ADDED from F:\Studio_ZLH\NCXZhengWuPingTaiV1.0\nCXZhengWuPingTaiV10\src\main\AndroidManifest.xml:93:13-53
+	android:name
+		ADDED from F:\Studio_ZLH\NCXZhengWuPingTaiV1.0\nCXZhengWuPingTaiV10\src\main\AndroidManifest.xml:90:13-74
+activity#com.ZWPT.activity.Wssq_Yslyw_Deny_Activity_
+ADDED from F:\Studio_ZLH\NCXZhengWuPingTaiV1.0\nCXZhengWuPingTaiV10\src\main\AndroidManifest.xml:94:9-97:52
+	android:screenOrientation
+		ADDED from F:\Studio_ZLH\NCXZhengWuPingTaiV1.0\nCXZhengWuPingTaiV10\src\main\AndroidManifest.xml:97:13-49
+	android:configChanges
+		ADDED from F:\Studio_ZLH\NCXZhengWuPingTaiV1.0\nCXZhengWuPingTaiV10\src\main\AndroidManifest.xml:96:13-63
+	android:name
+		ADDED from F:\Studio_ZLH\NCXZhengWuPingTaiV1.0\nCXZhengWuPingTaiV10\src\main\AndroidManifest.xml:95:13-71
+activity#com.ZWPT.activity.Spcl_Dsp_sp_Activity_
+ADDED from F:\Studio_ZLH\NCXZhengWuPingTaiV1.0\nCXZhengWuPingTaiV10\src\main\AndroidManifest.xml:98:9-101:52
+	android:screenOrientation
+		ADDED from F:\Studio_ZLH\NCXZhengWuPingTaiV1.0\nCXZhengWuPingTaiV10\src\main\AndroidManifest.xml:101:13-49
+	android:configChanges
+		ADDED from F:\Studio_ZLH\NCXZhengWuPingTaiV1.0\nCXZhengWuPingTaiV10\src\main\AndroidManifest.xml:100:13-63
+	android:name
+		ADDED from F:\Studio_ZLH\NCXZhengWuPingTaiV1.0\nCXZhengWuPingTaiV10\src\main\AndroidManifest.xml:99:13-67
+activity#com.ZWPT.activity.Jgff_Dfflb_ff_Activity_
+ADDED from F:\Studio_ZLH\NCXZhengWuPingTaiV1.0\nCXZhengWuPingTaiV10\src\main\AndroidManifest.xml:102:9-105:52
+	android:screenOrientation
+		ADDED from F:\Studio_ZLH\NCXZhengWuPingTaiV1.0\nCXZhengWuPingTaiV10\src\main\AndroidManifest.xml:105:13-49
+	android:configChanges
+		ADDED from F:\Studio_ZLH\NCXZhengWuPingTaiV1.0\nCXZhengWuPingTaiV10\src\main\AndroidManifest.xml:104:13-63
+	android:name
+		ADDED from F:\Studio_ZLH\NCXZhengWuPingTaiV1.0\nCXZhengWuPingTaiV10\src\main\AndroidManifest.xml:103:13-69
+activity#com.ZWPT.activity.Jgff_Dfflb_ff_dxtz_Activity_
+ADDED from F:\Studio_ZLH\NCXZhengWuPingTaiV1.0\nCXZhengWuPingTaiV10\src\main\AndroidManifest.xml:106:9-109:52
+	android:screenOrientation
+		ADDED from F:\Studio_ZLH\NCXZhengWuPingTaiV1.0\nCXZhengWuPingTaiV10\src\main\AndroidManifest.xml:109:13-49
+	android:configChanges
+		ADDED from F:\Studio_ZLH\NCXZhengWuPingTaiV1.0\nCXZhengWuPingTaiV10\src\main\AndroidManifest.xml:108:13-63
+	android:name
+		ADDED from F:\Studio_ZLH\NCXZhengWuPingTaiV1.0\nCXZhengWuPingTaiV10\src\main\AndroidManifest.xml:107:13-74
+activity#com.ZWPT.activity.Spcl_Dsp_bztz_Activity_
+ADDED from F:\Studio_ZLH\NCXZhengWuPingTaiV1.0\nCXZhengWuPingTaiV10\src\main\AndroidManifest.xml:110:9-113:52
+	android:screenOrientation
+		ADDED from F:\Studio_ZLH\NCXZhengWuPingTaiV1.0\nCXZhengWuPingTaiV10\src\main\AndroidManifest.xml:113:13-49
+	android:configChanges
+		ADDED from F:\Studio_ZLH\NCXZhengWuPingTaiV1.0\nCXZhengWuPingTaiV10\src\main\AndroidManifest.xml:112:13-63
+	android:name
+		ADDED from F:\Studio_ZLH\NCXZhengWuPingTaiV1.0\nCXZhengWuPingTaiV10\src\main\AndroidManifest.xml:111:13-69
+activity#com.ZWPT.activity.Spcl_Dsp_thyw_Activity_
+ADDED from F:\Studio_ZLH\NCXZhengWuPingTaiV1.0\nCXZhengWuPingTaiV10\src\main\AndroidManifest.xml:114:9-117:52
+	android:screenOrientation
+		ADDED from F:\Studio_ZLH\NCXZhengWuPingTaiV1.0\nCXZhengWuPingTaiV10\src\main\AndroidManifest.xml:117:13-49
+	android:configChanges
+		ADDED from F:\Studio_ZLH\NCXZhengWuPingTaiV1.0\nCXZhengWuPingTaiV10\src\main\AndroidManifest.xml:116:13-63
+	android:name
+		ADDED from F:\Studio_ZLH\NCXZhengWuPingTaiV1.0\nCXZhengWuPingTaiV10\src\main\AndroidManifest.xml:115:13-69
+activity#com.ZWPT.activity.Sjsl_Sjdj_Deny_Activity_
+ADDED from F:\Studio_ZLH\NCXZhengWuPingTaiV1.0\nCXZhengWuPingTaiV10\src\main\AndroidManifest.xml:118:9-121:52
+	android:screenOrientation
+		ADDED from F:\Studio_ZLH\NCXZhengWuPingTaiV1.0\nCXZhengWuPingTaiV10\src\main\AndroidManifest.xml:121:13-49
+	android:configChanges
+		ADDED from F:\Studio_ZLH\NCXZhengWuPingTaiV1.0\nCXZhengWuPingTaiV10\src\main\AndroidManifest.xml:120:13-63
+	android:name
+		ADDED from F:\Studio_ZLH\NCXZhengWuPingTaiV1.0\nCXZhengWuPingTaiV10\src\main\AndroidManifest.xml:119:13-70
+activity#com.ZWPT.activity.Bdlr_lrbd_luru_Activity_
+ADDED from F:\Studio_ZLH\NCXZhengWuPingTaiV1.0\nCXZhengWuPingTaiV10\src\main\AndroidManifest.xml:122:9-125:52
+	android:screenOrientation
+		ADDED from F:\Studio_ZLH\NCXZhengWuPingTaiV1.0\nCXZhengWuPingTaiV10\src\main\AndroidManifest.xml:125:13-49
+	android:configChanges
+		ADDED from F:\Studio_ZLH\NCXZhengWuPingTaiV1.0\nCXZhengWuPingTaiV10\src\main\AndroidManifest.xml:124:13-63
+	android:name
+		ADDED from F:\Studio_ZLH\NCXZhengWuPingTaiV1.0\nCXZhengWuPingTaiV10\src\main\AndroidManifest.xml:123:13-70
+activity#com.ZWPT.activity.Spcl_Dsp_bzsl_Activity_
+ADDED from F:\Studio_ZLH\NCXZhengWuPingTaiV1.0\nCXZhengWuPingTaiV10\src\main\AndroidManifest.xml:126:9-129:52
+	android:screenOrientation
+		ADDED from F:\Studio_ZLH\NCXZhengWuPingTaiV1.0\nCXZhengWuPingTaiV10\src\main\AndroidManifest.xml:129:13-49
+	android:configChanges
+		ADDED from F:\Studio_ZLH\NCXZhengWuPingTaiV1.0\nCXZhengWuPingTaiV10\src\main\AndroidManifest.xml:128:13-63
+	android:name
+		ADDED from F:\Studio_ZLH\NCXZhengWuPingTaiV1.0\nCXZhengWuPingTaiV10\src\main\AndroidManifest.xml:127:13-69
+activity#com.ZWPT.activity.Spcl_Dsp_ksyw_Activity_
+ADDED from F:\Studio_ZLH\NCXZhengWuPingTaiV1.0\nCXZhengWuPingTaiV10\src\main\AndroidManifest.xml:130:9-133:52
+	android:screenOrientation
+		ADDED from F:\Studio_ZLH\NCXZhengWuPingTaiV1.0\nCXZhengWuPingTaiV10\src\main\AndroidManifest.xml:133:13-49
+	android:configChanges
+		ADDED from F:\Studio_ZLH\NCXZhengWuPingTaiV1.0\nCXZhengWuPingTaiV10\src\main\AndroidManifest.xml:132:13-63
+	android:name
+		ADDED from F:\Studio_ZLH\NCXZhengWuPingTaiV1.0\nCXZhengWuPingTaiV10\src\main\AndroidManifest.xml:131:13-69
+activity#com.ZWPT.activity.Spcl_Dsp_ztyw_Activity_
+ADDED from F:\Studio_ZLH\NCXZhengWuPingTaiV1.0\nCXZhengWuPingTaiV10\src\main\AndroidManifest.xml:134:9-137:52
+	android:screenOrientation
+		ADDED from F:\Studio_ZLH\NCXZhengWuPingTaiV1.0\nCXZhengWuPingTaiV10\src\main\AndroidManifest.xml:137:13-49
+	android:configChanges
+		ADDED from F:\Studio_ZLH\NCXZhengWuPingTaiV1.0\nCXZhengWuPingTaiV10\src\main\AndroidManifest.xml:136:13-63
+	android:name
+		ADDED from F:\Studio_ZLH\NCXZhengWuPingTaiV1.0\nCXZhengWuPingTaiV10\src\main\AndroidManifest.xml:135:13-69
+service#com.umeng.update.net.DownloadingService
+ADDED from F:\Studio_ZLH\NCXZhengWuPingTaiV1.0\nCXZhengWuPingTaiV10\src\main\AndroidManifest.xml:139:9-142:19
+	android:process
+		ADDED from F:\Studio_ZLH\NCXZhengWuPingTaiV1.0\nCXZhengWuPingTaiV10\src\main\AndroidManifest.xml:141:13-50
+	android:name
+		ADDED from F:\Studio_ZLH\NCXZhengWuPingTaiV1.0\nCXZhengWuPingTaiV10\src\main\AndroidManifest.xml:140:13-67
+activity#com.umeng.update.UpdateDialogActivity
+ADDED from F:\Studio_ZLH\NCXZhengWuPingTaiV1.0\nCXZhengWuPingTaiV10\src\main\AndroidManifest.xml:144:9-147:20
+	android:theme
+		ADDED from F:\Studio_ZLH\NCXZhengWuPingTaiV1.0\nCXZhengWuPingTaiV10\src\main\AndroidManifest.xml:146:13-72
+	android:name
+		ADDED from F:\Studio_ZLH\NCXZhengWuPingTaiV1.0\nCXZhengWuPingTaiV10\src\main\AndroidManifest.xml:145:13-65
+activity#com.ZWPT.activity.TestActivity
+ADDED from F:\Studio_ZLH\NCXZhengWuPingTaiV1.0\nCXZhengWuPingTaiV10\src\main\AndroidManifest.xml:148:9-149:70
+	android:name
+		ADDED from F:\Studio_ZLH\NCXZhengWuPingTaiV1.0\nCXZhengWuPingTaiV10\src\main\AndroidManifest.xml:149:13-58
+meta-data#UMENG_APPKEY
+ADDED from F:\Studio_ZLH\NCXZhengWuPingTaiV1.0\nCXZhengWuPingTaiV10\src\main\AndroidManifest.xml:151:9-153:56
+	android:value
+		ADDED from F:\Studio_ZLH\NCXZhengWuPingTaiV1.0\nCXZhengWuPingTaiV10\src\main\AndroidManifest.xml:153:13-53
+	android:name
+		ADDED from F:\Studio_ZLH\NCXZhengWuPingTaiV1.0\nCXZhengWuPingTaiV10\src\main\AndroidManifest.xml:152:13-40
+meta-data#UMENG_CHANNEL
+ADDED from F:\Studio_ZLH\NCXZhengWuPingTaiV1.0\nCXZhengWuPingTaiV10\src\main\AndroidManifest.xml:154:9-156:42
+	android:value
+		ADDED from F:\Studio_ZLH\NCXZhengWuPingTaiV1.0\nCXZhengWuPingTaiV10\src\main\AndroidManifest.xml:156:13-39
+	android:name
+		ADDED from F:\Studio_ZLH\NCXZhengWuPingTaiV1.0\nCXZhengWuPingTaiV10\src\main\AndroidManifest.xml:155:13-41

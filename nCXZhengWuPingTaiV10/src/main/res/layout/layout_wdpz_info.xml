@@ -1,0 +1,996 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/blue_green"
+    android:orientation="vertical" >
+
+    <com.ZWPT.view.CustomTitle
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" />
+
+    <!-- 二级title -->
+
+    <include layout="@layout/custom_title_two" />
+
+    <!-- 修改密码 -->
+
+    <LinearLayout
+        android:id="@id/ll_wdpz_xgmm"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/height_1_100"
+            android:background="@drawable/linearlayout"
+            android:orientation="vertical" >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/height_1_100"
+                android:layout_marginRight="@dimen/height_2_100"
+                android:layout_marginTop="@dimen/height_2_100"
+                android:orientation="horizontal" >
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="@string/oldpsd"
+                    android:textColor="@color/black"
+                    android:textSize="@dimen/text_middle_size" />
+
+                <EditText
+                    android:id="@id/edt_oldpsd"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:layout_weight="2"
+                    android:background="@drawable/bg_edit"
+                    android:inputType="textPassword"
+                    android:paddingLeft="@dimen/height_1_100"
+                    android:singleLine="true" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/height_1_100"
+                android:layout_marginRight="@dimen/height_2_100"
+                android:layout_marginTop="@dimen/height_2_100"
+                android:orientation="horizontal" >
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="@string/newpsd"
+                    android:textColor="@color/black"
+                    android:textSize="@dimen/text_middle_size" />
+
+                <EditText
+                    android:id="@id/edt_newpsd"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:layout_weight="2"
+                    android:background="@drawable/bg_edit"
+                    android:inputType="textPassword"
+                    android:paddingLeft="@dimen/height_1_100"
+                    android:singleLine="true" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/height_2_100"
+                android:layout_marginLeft="@dimen/height_1_100"
+                android:layout_marginRight="@dimen/height_2_100"
+                android:layout_marginTop="@dimen/height_2_100"
+                android:orientation="horizontal" >
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="@string/arginpsd"
+                    android:textColor="@color/black"
+                    android:textSize="@dimen/text_middle_size" />
+
+                <EditText
+                    android:id="@id/edt_arginpsd"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:layout_weight="2"
+                    android:background="@drawable/bg_edit"
+                    android:inputType="textPassword"
+                    android:paddingLeft="@dimen/height_1_100"
+                    android:singleLine="true" />
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/height_1_100"
+            android:gravity="center_horizontal"
+            android:orientation="horizontal" >
+
+            <Button
+                android:id="@id/btn_update"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/height_2_100"
+                android:background="@drawable/custom_button"
+                android:gravity="center"
+                android:paddingBottom="@dimen/height_1_100"
+                android:text="@string/update"
+                android:textColor="#FFFFFF" />
+
+            <Button
+                android:id="@id/btn_cancel"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/height_2_100"
+                android:background="@drawable/custom_button"
+                android:gravity="center"
+                android:paddingBottom="@dimen/height_1_100"
+                android:text="@string/cancel"
+                android:textColor="#FFFFFF" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <ViewAnimator
+        android:id="@id/va_wdpz_info"
+        android:layout_width="match_parent"
+        android:layout_height="0dip"
+        android:layout_weight="1" >
+
+        <!-- 浏览个人信息 -->
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:scrollbars="none"
+            android:fadingEdge="none" >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/height_1_100"
+                android:layout_gravity="center_horizontal"
+                android:orientation="vertical" >
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/linearlayout"
+                    android:orientation="vertical" >
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content" >
+
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_centerInParent="true"
+                            android:background="@drawable/custom_fragment_tt" >
+
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center"
+                                android:gravity="center"
+                                android:text="@string/jbxx"
+                                android:textColor="#FFFFFF" />
+                        </LinearLayout>
+                    </RelativeLayout>
+
+                    <View
+                        android:layout_width="fill_parent"
+                        android:layout_height="1dp"
+                        android:background="#3293DB" />
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="@dimen/height_2_100"
+                        android:layout_marginRight="@dimen/height_1_100"
+                        android:layout_marginTop="@dimen/height_2_100"
+                        android:orientation="horizontal" >
+
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:gravity="center"
+                            android:text="@string/wdpz_usernumber"
+                            android:textColor="@color/black"
+                            android:textSize="@dimen/text_middle_size" />
+
+                        <TextView
+                            android:id="@id/tv_wdpz_info_1"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1.5"
+                            android:textColor="@color/black"
+                            android:textSize="@dimen/text_middle_size" />
+                    </LinearLayout>
+
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="1dp"
+                        android:layout_marginLeft="@dimen/height_1_100"
+                        android:layout_marginRight="@dimen/height_1_100"
+                        android:layout_marginTop="@dimen/height_1_100"
+                        android:background="@drawable/bg_divider" />
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="@dimen/height_2_100"
+                        android:layout_marginRight="@dimen/height_1_100"
+                        android:layout_marginTop="@dimen/height_1_100"
+                        android:orientation="horizontal" >
+
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:gravity="center"
+                            android:text="@string/wdpz_danwei"
+                            android:textColor="@color/black"
+                            android:textSize="@dimen/text_middle_size" />
+
+                        <TextView
+                            android:id="@id/tv_wdpz_info_2"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1.5"
+                            android:textColor="@color/black"
+                            android:textSize="@dimen/text_middle_size" />
+                    </LinearLayout>
+
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="1dp"
+                        android:layout_marginLeft="@dimen/height_1_100"
+                        android:layout_marginRight="@dimen/height_1_100"
+                        android:layout_marginTop="@dimen/height_1_100"
+                        android:background="@drawable/bg_divider" />
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="@dimen/height_2_100"
+                        android:layout_marginRight="@dimen/height_1_100"
+                        android:layout_marginTop="@dimen/height_1_100"
+                        android:orientation="horizontal" >
+
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:gravity="center"
+                            android:text="@string/wdpz_username"
+                            android:textColor="@color/black"
+                            android:textSize="@dimen/text_middle_size" />
+
+                        <TextView
+                            android:id="@id/tv_wdpz_info_3"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1.5"
+                            android:textColor="@color/black"
+                            android:textSize="@dimen/text_middle_size" />
+                    </LinearLayout>
+
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="1dp"
+                        android:layout_marginLeft="@dimen/height_1_100"
+                        android:layout_marginRight="@dimen/height_1_100"
+                        android:layout_marginTop="@dimen/height_1_100"
+                        android:background="@drawable/bg_divider" />
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="@dimen/height_2_100"
+                        android:layout_marginRight="@dimen/height_1_100"
+                        android:layout_marginTop="@dimen/height_1_100"
+                        android:orientation="horizontal" >
+
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:gravity="center"
+                            android:text="@string/wdpz_IDnumber"
+                            android:textColor="@color/black"
+                            android:textSize="@dimen/text_middle_size" />
+
+                        <TextView
+                            android:id="@id/tv_wdpz_info_4"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1.5"
+                            android:textColor="@color/black"
+                            android:textSize="@dimen/text_middle_size" />
+                    </LinearLayout>
+
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="1dp"
+                        android:layout_marginLeft="@dimen/height_1_100"
+                        android:layout_marginRight="@dimen/height_1_100"
+                        android:layout_marginTop="@dimen/height_1_100"
+                        android:background="@drawable/bg_divider" />
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="@dimen/height_2_100"
+                        android:layout_marginRight="@dimen/height_1_100"
+                        android:layout_marginTop="@dimen/height_1_100"
+                        android:orientation="horizontal" >
+
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:gravity="center"
+                            android:text="@string/wdpz_gongzuobumen"
+                            android:textColor="@color/black"
+                            android:textSize="@dimen/text_middle_size" />
+
+                        <TextView
+                            android:id="@id/tv_wdpz_info_5"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1.5"
+                            android:textColor="@color/black"
+                            android:textSize="@dimen/text_middle_size" />
+                    </LinearLayout>
+
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="1dp"
+                        android:layout_marginLeft="@dimen/height_1_100"
+                        android:layout_marginRight="@dimen/height_1_100"
+                        android:layout_marginTop="@dimen/height_1_100"
+                        android:background="@drawable/bg_divider" />
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="@dimen/height_2_100"
+                        android:layout_marginRight="@dimen/height_1_100"
+                        android:layout_marginTop="@dimen/height_1_100"
+                        android:orientation="horizontal" >
+
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:gravity="center"
+                            android:text="@string/wdpz_job"
+                            android:textColor="@color/black"
+                            android:textSize="@dimen/text_middle_size" />
+
+                        <TextView
+                            android:id="@id/tv_wdpz_info_6"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1.5"
+                            android:textColor="@color/black"
+                            android:textSize="@dimen/text_middle_size" />
+                    </LinearLayout>
+
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="1dp"
+                        android:layout_marginLeft="@dimen/height_1_100"
+                        android:layout_marginRight="@dimen/height_1_100"
+                        android:layout_marginTop="@dimen/height_1_100"
+                        android:background="@drawable/bg_divider" />
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="@dimen/height_2_100"
+                        android:layout_marginRight="@dimen/height_1_100"
+                        android:layout_marginTop="@dimen/height_1_100"
+                        android:orientation="horizontal" >
+
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:gravity="center"
+                            android:text="@string/wdpz_contact_number"
+                            android:textColor="@color/black"
+                            android:textSize="@dimen/text_middle_size" />
+
+                        <TextView
+                            android:id="@id/tv_wdpz_info_7"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1.5"
+                            android:textColor="@color/black"
+                            android:textSize="@dimen/text_middle_size" />
+                    </LinearLayout>
+
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="1dp"
+                        android:layout_marginLeft="@dimen/height_1_100"
+                        android:layout_marginRight="@dimen/height_1_100"
+                        android:layout_marginTop="@dimen/height_1_100"
+                        android:background="@drawable/bg_divider" />
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="@dimen/height_2_100"
+                        android:layout_marginRight="@dimen/height_1_100"
+                        android:layout_marginTop="@dimen/height_1_100"
+                        android:orientation="horizontal" >
+
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:gravity="center"
+                            android:text="@string/wdpz_moblie_phone"
+                            android:textColor="@color/black"
+                            android:textSize="@dimen/text_middle_size" />
+
+                        <TextView
+                            android:id="@id/tv_wdpz_info_8"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1.5"
+                            android:textColor="@color/black"
+                            android:textSize="@dimen/text_middle_size" />
+                    </LinearLayout>
+
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="1dp"
+                        android:layout_marginLeft="@dimen/height_1_100"
+                        android:layout_marginRight="@dimen/height_1_100"
+                        android:layout_marginTop="@dimen/height_1_100"
+                        android:background="@drawable/bg_divider" />
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="@dimen/height_2_100"
+                        android:layout_marginRight="@dimen/height_1_100"
+                        android:layout_marginTop="@dimen/height_1_100"
+                        android:orientation="horizontal" >
+
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:gravity="center"
+                            android:text="@string/wdpz_email"
+                            android:textColor="@color/black"
+                            android:textSize="@dimen/text_middle_size" />
+
+                        <TextView
+                            android:id="@id/tv_wdpz_info_9"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1.5"
+                            android:textColor="@color/black"
+                            android:textSize="@dimen/text_middle_size" />
+                    </LinearLayout>
+
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="1dp"
+                        android:layout_marginLeft="@dimen/height_1_100"
+                        android:layout_marginRight="@dimen/height_1_100"
+                        android:layout_marginTop="@dimen/height_1_100"
+                        android:background="@drawable/bg_divider" />
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="@dimen/height_2_100"
+                        android:layout_marginRight="@dimen/height_1_100"
+                        android:layout_marginTop="@dimen/height_1_100"
+                        android:orientation="horizontal" >
+
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:gravity="center"
+                            android:text="@string/wdpz_fax_phone"
+                            android:textColor="@color/black"
+                            android:textSize="@dimen/text_middle_size" />
+
+                        <TextView
+                            android:id="@id/tv_wdpz_info_10"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1.5"
+                            android:textColor="@color/black"
+                            android:textSize="@dimen/text_middle_size" />
+                    </LinearLayout>
+
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="1dp"
+                        android:layout_marginLeft="@dimen/height_1_100"
+                        android:layout_marginRight="@dimen/height_1_100"
+                        android:layout_marginTop="@dimen/height_1_100"
+                        android:background="@drawable/bg_divider" />
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="@dimen/height_1_100"
+                        android:layout_marginLeft="@dimen/height_2_100"
+                        android:orientation="horizontal" >
+
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:gravity="center"
+                            android:text="@string/wdpz_address"
+                            android:textColor="@color/black"
+                            android:textSize="@dimen/text_middle_size" />
+
+                        <TextView
+                            android:id="@id/tv_wdpz_info_11"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1.5"
+                            android:textColor="@color/black"
+                            android:textSize="@dimen/text_middle_size" />
+                    </LinearLayout>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/height_1_100"
+                    android:gravity="center_horizontal"
+                    android:orientation="horizontal" >
+
+                    <Button
+                        android:id="@id/btn_update_userInfo"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="@dimen/height_2_100"
+                        android:background="@drawable/custom_button"
+                        android:gravity="center"
+                        android:paddingBottom="@dimen/height_1_100"
+                        android:paddingLeft="@dimen/height_3_100"
+                        android:paddingRight="@dimen/height_3_100"
+                        android:text="@string/update_userInfo"
+                        android:textColor="#FFFFFF" />
+                </LinearLayout>
+            </LinearLayout>
+        </ScrollView>
+
+        <!-- 修改个人信息 -->
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:scrollbars="none"
+            android:fadingEdge="none" >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/height_1_100"
+                android:layout_gravity="center_horizontal"
+                android:orientation="vertical" >
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/linearlayout"
+                    android:orientation="vertical" >
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content" >
+
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_centerInParent="true"
+                            android:background="@drawable/custom_fragment_tt" >
+
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center"
+                                android:gravity="center"
+                                android:text="@string/jbxx"
+                                android:textColor="#FFFFFF" />
+                        </LinearLayout>
+                    </RelativeLayout>
+
+                    <View
+                        android:layout_width="fill_parent"
+                        android:layout_height="1dp"
+                        android:background="#3293DB" />
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="@dimen/height_1_100"
+                        android:layout_marginRight="@dimen/height_2_100"
+                        android:layout_marginTop="@dimen/height_2_100"
+                        android:orientation="horizontal" >
+
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center_vertical"
+                            android:layout_weight="1"
+                            android:gravity="center"
+                            android:text="@string/wdpz_usernumber"
+                            android:textColor="@color/black"
+                            android:textSize="@dimen/text_middle_size" />
+
+                        <EditText
+                            android:id="@id/edt_usernumberinfo"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center_vertical"
+                            android:layout_weight="1.5"
+                            android:background="@drawable/bg_edit"
+                            android:paddingLeft="@dimen/height_1_100"
+                            android:singleLine="true" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="@dimen/height_1_100"
+                        android:layout_marginRight="@dimen/height_2_100"
+                        android:layout_marginTop="@dimen/height_2_100"
+                        android:orientation="horizontal" >
+
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center_vertical"
+                            android:layout_weight="1"
+                            android:gravity="center"
+                            android:text="@string/wdpz_danwei"
+                            android:textColor="@color/black"
+                            android:textSize="@dimen/text_middle_size" />
+
+                        <EditText
+                            android:id="@id/edt_danwei"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center_vertical"
+                            android:layout_weight="1.5"
+                            android:background="@drawable/bg_edit"
+                            android:paddingLeft="@dimen/height_1_100"
+                            android:singleLine="true" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="@dimen/height_1_100"
+                        android:layout_marginRight="@dimen/height_2_100"
+                        android:layout_marginTop="@dimen/height_2_100"
+                        android:orientation="horizontal" >
+
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center_vertical"
+                            android:layout_weight="1"
+                            android:gravity="center"
+                            android:text="@string/wdpz_username"
+                            android:textColor="@color/black"
+                            android:textSize="@dimen/text_middle_size" />
+
+                        <EditText
+                            android:id="@id/edt_username"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center_vertical"
+                            android:layout_weight="1.5"
+                            android:background="@drawable/bg_edit"
+                            android:paddingLeft="@dimen/height_1_100"
+                            android:singleLine="true" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="@dimen/height_1_100"
+                        android:layout_marginRight="@dimen/height_2_100"
+                        android:layout_marginTop="@dimen/height_2_100"
+                        android:orientation="horizontal" >
+
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center_vertical"
+                            android:layout_weight="1"
+                            android:gravity="center"
+                            android:text="@string/wdpz_IDnumber"
+                            android:textColor="@color/black"
+                            android:textSize="@dimen/text_middle_size" />
+
+                        <EditText
+                            android:id="@id/edt_IDnumber"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center_vertical"
+                            android:layout_weight="1.5"
+                            android:background="@drawable/bg_edit"
+                            android:paddingLeft="@dimen/height_1_100"
+                            android:singleLine="true" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="@dimen/height_1_100"
+                        android:layout_marginRight="@dimen/height_2_100"
+                        android:layout_marginTop="@dimen/height_2_100"
+                        android:orientation="horizontal" >
+
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center_vertical"
+                            android:layout_weight="1"
+                            android:gravity="center"
+                            android:text="@string/wdpz_gongzuobumen"
+                            android:textColor="@color/black"
+                            android:textSize="@dimen/text_middle_size" />
+
+                        <EditText
+                            android:id="@id/edt_gongzuobumen"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center_vertical"
+                            android:layout_weight="1.5"
+                            android:background="@drawable/bg_edit"
+                            android:paddingLeft="@dimen/height_1_100"
+                            android:singleLine="true" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="@dimen/height_1_100"
+                        android:layout_marginRight="@dimen/height_2_100"
+                        android:layout_marginTop="@dimen/height_2_100"
+                        android:orientation="horizontal" >
+
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center_vertical"
+                            android:layout_weight="1"
+                            android:gravity="center"
+                            android:text="@string/wdpz_job"
+                            android:textColor="@color/black"
+                            android:textSize="@dimen/text_middle_size" />
+
+                        <EditText
+                            android:id="@id/edt_job"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center_vertical"
+                            android:layout_weight="1.5"
+                            android:background="@drawable/bg_edit"
+                            android:paddingLeft="@dimen/height_1_100"
+                            android:singleLine="true" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="@dimen/height_1_100"
+                        android:layout_marginRight="@dimen/height_2_100"
+                        android:layout_marginTop="@dimen/height_2_100"
+                        android:orientation="horizontal" >
+
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center_vertical"
+                            android:layout_weight="1"
+                            android:gravity="center"
+                            android:text="@string/wdpz_contact_number"
+                            android:textColor="@color/black"
+                            android:textSize="@dimen/text_middle_size" />
+
+                        <EditText
+                            android:id="@id/edt_contanct_number"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center_vertical"
+                            android:layout_weight="1.5"
+                            android:background="@drawable/bg_edit"
+                            android:inputType="numberSigned"
+                            android:paddingLeft="@dimen/height_1_100"
+                            android:singleLine="true" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="@dimen/height_1_100"
+                        android:layout_marginRight="@dimen/height_2_100"
+                        android:layout_marginTop="@dimen/height_2_100"
+                        android:orientation="horizontal" >
+
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center_vertical"
+                            android:layout_weight="1"
+                            android:gravity="center"
+                            android:text="@string/wdpz_moblie_phone"
+                            android:textColor="@color/black"
+                            android:textSize="@dimen/text_middle_size" />
+
+                        <EditText
+                            android:id="@id/edt_moblie_phone"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center_vertical"
+                            android:layout_weight="1.5"
+                            android:inputType="phone"
+                            android:background="@drawable/bg_edit"
+                            android:paddingLeft="@dimen/height_1_100"
+                            android:singleLine="true" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="@dimen/height_1_100"
+                        android:layout_marginRight="@dimen/height_2_100"
+                        android:layout_marginTop="@dimen/height_2_100"
+                        android:orientation="horizontal" >
+
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center_vertical"
+                            android:layout_weight="1"
+                            android:gravity="center"
+                            android:text="@string/wdpz_email"
+                            android:textColor="@color/black"
+                            android:textSize="@dimen/text_middle_size" />
+
+                        <EditText
+                            android:id="@id/edt_email"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center_vertical"
+                            android:layout_weight="1.5"
+                            android:background="@drawable/bg_edit"
+                            android:paddingLeft="@dimen/height_1_100"
+                            android:singleLine="true" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="@dimen/height_1_100"
+                        android:layout_marginRight="@dimen/height_2_100"
+                        android:layout_marginTop="@dimen/height_2_100"
+                        android:orientation="horizontal" >
+
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center_vertical"
+                            android:layout_weight="1"
+                            android:gravity="center"
+                            android:text="@string/wdpz_fax_phone"
+                            android:textColor="@color/black"
+                            android:textSize="@dimen/text_middle_size" />
+
+                        <EditText
+                            android:id="@id/edt_fax_phone"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center_vertical"
+                            android:layout_weight="1.5"
+                            android:background="@drawable/bg_edit"
+                            android:paddingLeft="@dimen/height_1_100"
+                            android:singleLine="true" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="@dimen/height_1_100"
+                        android:layout_marginRight="@dimen/height_2_100"
+                        android:layout_marginTop="@dimen/height_2_100"
+                        android:orientation="horizontal" >
+
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center_vertical"
+                            android:layout_weight="1"
+                            android:gravity="center"
+                            android:text="@string/wdpz_address"
+                            android:textColor="@color/black"
+                            android:textSize="@dimen/text_middle_size" />
+
+                        <EditText
+                            android:id="@id/edt_address"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center_vertical"
+                            android:layout_weight="1.5"
+                            android:background="@drawable/bg_edit"
+                            android:paddingLeft="@dimen/height_1_100"
+                            android:singleLine="true" />
+                    </LinearLayout>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/height_1_100"
+                    android:gravity="center_horizontal"
+                    android:orientation="horizontal" >
+
+                    <Button
+                        android:id="@id/btn_update_info"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="@dimen/height_2_100"
+                        android:background="@drawable/custom_button"
+                        android:gravity="center"
+                        android:paddingBottom="@dimen/height_1_100"
+                        android:text="@string/update"
+                        android:textColor="#FFFFFF" />
+
+                    <Button
+                        android:id="@id/btn_cancel_info"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="@dimen/height_2_100"
+                        android:background="@drawable/custom_button"
+                        android:gravity="center"
+                        android:paddingBottom="@dimen/height_1_100"
+                        android:text="@string/cancel"
+                        android:textColor="#FFFFFF" />
+                </LinearLayout>
+            </LinearLayout>
+        </ScrollView>
+    </ViewAnimator>
+
+</LinearLayout>

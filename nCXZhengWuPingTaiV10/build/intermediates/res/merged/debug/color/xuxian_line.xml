@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android" android:shape="line">
+    <stroke android:dashGap="3dp"
+        android:dashWidth="6dp"
+        android:width="1dp"
+        android:color="#C9C9C9"/>
+<!-- #C9C9C9 -->
+    <size android:height="1dp"/>
+</shape>
+<!-- From: file:/F:/Studio_ZLH/NCXZhengWuPingTaiV1.0/nCXZhengWuPingTaiV10/src/main/res/color/xuxian_line.xml -->

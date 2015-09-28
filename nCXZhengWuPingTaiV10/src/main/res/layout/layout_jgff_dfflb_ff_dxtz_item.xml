@@ -1,0 +1,356 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginLeft="@dimen/height_1_100"
+    android:layout_marginRight="@dimen/height_1_100"
+    android:background="@drawable/linearlayout"
+    android:orientation="vertical" 
+            android:focusable="true" 
+	android:focusableInTouchMode="true"  >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:background="@drawable/custom_fragment_tt" >
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:text="@string/duanxintongzhi"
+                android:textColor="#FFFFFF" />
+        </LinearLayout>
+    </RelativeLayout>
+
+    <View
+        android:layout_width="fill_parent"
+        android:layout_height="1dp"
+        android:background="#3293DB" />
+
+       <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/height_1_100"
+        android:layout_marginRight="@dimen/height_1_100"
+        android:layout_marginTop="@dimen/height_1_100"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="@string/search_apply_name"
+            android:textColor="@color/black"
+            android:textSize="@dimen/text_small_size" />
+
+        <TextView
+            android:id="@id/tv_list_item_1"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="2"
+            android:text="@string/search_apply_name"
+            android:textColor="@color/black"
+            android:textSize="@dimen/text_small_size" />
+    </LinearLayout>
+
+     <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_marginLeft="@dimen/height_1_100"
+        android:layout_marginRight="@dimen/height_1_100"
+        android:layout_marginTop="@dimen/height_1_100"
+        android:background="@drawable/bg_divider" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/height_1_100"
+        android:layout_marginRight="@dimen/height_1_100"
+        android:layout_marginTop="@dimen/height_1_100"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="@string/search_shenqingriqi_"
+            android:textColor="@color/black"
+            android:textSize="@dimen/text_small_size" />
+
+        <TextView
+            android:id="@id/tv_list_item_2"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="2"
+            android:text="@string/search_apply_name"
+            android:textColor="@color/black"
+            android:textSize="@dimen/text_small_size" />
+    </LinearLayout>
+     <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_marginLeft="@dimen/height_1_100"
+        android:layout_marginRight="@dimen/height_1_100"
+        android:layout_marginTop="@dimen/height_1_100"
+        android:background="@drawable/bg_divider" />
+     
+         <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/height_1_100"
+        android:layout_marginRight="@dimen/height_1_100"
+        android:layout_marginTop="@dimen/height_1_100"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="@string/banjieriqi"
+            android:textColor="@color/black"
+            android:textSize="@dimen/text_small_size" />
+
+        <TextView
+            android:id="@id/tv_list_item_3"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="2"
+            android:text="@string/search_apply_name"
+            android:textColor="@color/black"
+            android:textSize="@dimen/text_small_size" />
+    </LinearLayout>
+     <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_marginLeft="@dimen/height_1_100"
+        android:layout_marginRight="@dimen/height_1_100"
+        android:layout_marginTop="@dimen/height_1_100"
+        android:background="@drawable/bg_divider" />
+    
+    <LinearLayout
+        android:id="@id/search_rll1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/height_1_100"
+        android:layout_marginRight="@dimen/height_2_100"
+        android:layout_marginTop="@dimen/height_1_100"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_weight="1.2"
+            android:gravity="center"
+            android:text="@string/search_banlizhuangtai"
+            android:textColor="@color/black"
+            android:textSize="@dimen/text_middle_size" />
+
+        <RadioGroup
+            android:id="@+id/rg"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_marginLeft="@dimen/width_2_100"
+            android:layout_weight="2"
+            android:checkedButton="@+id/first"
+            android:orientation="horizontal" >
+
+            <RadioButton
+                android:id="@+id/first"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.7"
+                android:button="@drawable/radiobutton_style"
+                android:text="@string/chenggong"
+                android:textColor="@color/black"
+                android:textSize="@dimen/text_smaller_size" />
+
+            <RadioButton
+                android:id="@+id/second"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:button="@drawable/radiobutton_style"
+                android:text="@string/shibai"
+                android:textColor="@color/black"
+                android:textSize="@dimen/text_smaller_size" />
+        </RadioGroup>
+    </LinearLayout>
+     <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_marginLeft="@dimen/height_1_100"
+        android:layout_marginRight="@dimen/height_1_100"
+        android:layout_marginTop="@dimen/height_1_100"
+        android:background="@drawable/bg_divider" />
+    
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/height_2_100"
+        android:layout_marginRight="@dimen/height_2_100"
+        android:layout_marginTop="@dimen/height_2_100"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="left"
+            android:text="@string/beizhu"
+            android:textColor="@color/black"
+            android:textSize="@dimen/text_small_size" />
+
+        <TextView
+            android:id="@id/tv_list_item_4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/height_2_100"
+            android:layout_marginLeft="@dimen/height_1_100"
+            android:layout_marginRight="@dimen/height_1_100"
+            android:background="@drawable/bg_edit_big"
+            android:gravity="top"
+            android:minHeight="@dimen/height_10_100"
+            android:maxWidth="@dimen/width_88_100"
+            android:padding="@dimen/height_1_100" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@id/search_rll4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/height_1_100"
+        android:layout_marginRight="@dimen/height_2_100"
+        android:layout_marginTop="@dimen/width_1_100"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="@string/sliding_title_5"
+            android:textColor="@color/black"
+            android:textSize="@dimen/text_middle_size" />
+
+        <CheckBox
+            android:id="@id/cb_jgff"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginRight="@dimen/width_3_100"
+            android:layout_weight="2"
+            android:checked="false"
+            android:button="@drawable/checkbox_style"
+            android:gravity="center_vertical" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@id/search_rll1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/height_1_100"
+        android:layout_marginRight="@dimen/height_2_100"
+        android:layout_marginTop="@dimen/height_2_100"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_weight="2"
+            android:gravity="center"
+            android:text="@string/shenqingrenshoujihaoma"
+            android:textColor="@color/black"
+            android:textSize="@dimen/text_middle_size" />
+
+        <EditText
+            android:id="@id/edt_search_1"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_weight="2"
+            android:background="@drawable/bg_edit"
+            android:inputType="number"
+            android:paddingLeft="@dimen/height_1_100"
+            android:singleLine="true" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/height_2_100"
+        android:layout_marginRight="@dimen/height_2_100"
+        android:layout_marginTop="@dimen/height_2_100"
+        android:orientation="horizontal"
+        android:visibility="gone" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="left"
+            android:text="@string/duanxinneirong"
+            android:textColor="@color/black"
+            android:textSize="@dimen/text_small_size" />
+
+        <EditText
+            android:id="@id/edt_search_2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/height_2_100"
+            android:layout_marginLeft="@dimen/height_1_100"
+            android:layout_marginRight="@dimen/height_1_100"
+            android:background="@drawable/bg_edit_big"
+            android:gravity="top"
+            android:textColor="@color/black"
+            android:minHeight="@dimen/height_10_100"
+            android:textSize="@dimen/text_middle_size"
+            android:maxWidth="@dimen/width_88_100"
+            android:padding="@dimen/height_1_100" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/height_1_100"
+        android:layout_marginLeft="@dimen/height_4_100"
+        android:layout_marginRight="@dimen/height_4_100"
+        android:layout_marginTop="@dimen/height_2_100"
+        android:gravity="bottom"
+        android:orientation="horizontal" >
+        <Button
+            android:id="@id/btn_list_1"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/height_2_100"
+            android:layout_weight="1"
+            android:background="@drawable/custom_button"
+            android:gravity="center"
+            android:paddingBottom="@dimen/height_1_100"
+            android:text="@string/fasong"
+            android:textColor="#FFFFFF" />
+        <Button
+            android:id="@id/btn_list_2"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/height_2_100"
+            android:layout_weight="1"
+            android:background="@drawable/custom_button"
+            android:gravity="center"
+            android:paddingBottom="@dimen/height_1_100"
+            android:text="@string/fanhui"
+            android:textColor="#FFFFFF" />
+
+
+    </LinearLayout>
+</LinearLayout>

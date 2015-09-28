@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/login"
+    android:orientation="vertical" >
+	<TextView 
+	    android:layout_width="fill_parent"
+	    android:layout_height="170dp"
+	    >
+	    
+	</TextView>
+    <LinearLayout
+        android:id="@+id/ll"
+        android:layout_width="fill_parent"
+        android:layout_height="100dp"
+        android:layout_marginLeft="@dimen/height_4_100"
+        android:layout_marginRight="@dimen/height_4_100"
+        android:background="@drawable/login_05"
+        android:orientation="vertical" >
+        
+        <LinearLayout 
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:layout_marginLeft="@dimen/height_2_100"
+            android:layout_marginRight="@dimen/height_2_100"
+            
+            android:orientation="horizontal">
+            
+            <ImageView 
+                android:layout_gravity="center"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/login_03"
+                android:layout_margin="@dimen/height_2_100"
+                android:contentDescription="@string/app_name"/>
+            <EditText 
+                android:id="@id/edt_login_1"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_margin="@dimen/height_1_100"
+                android:layout_marginTop="@dimen/height_2_100"
+				android:textColorHint="@color/white_light" 
+                android:background="@null"
+                android:singleLine="true"
+                android:hint="@string/login_edit_username"/>
+            
+        </LinearLayout>
+        
+        <LinearLayout 
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:layout_marginLeft="@dimen/height_2_100"
+            android:layout_marginRight="@dimen/height_2_100"
+            
+            android:orientation="horizontal">
+            
+            <ImageView 
+                android:layout_gravity="center"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/login_04"
+                android:layout_margin="@dimen/height_2_100"
+                android:contentDescription="@string/app_name"/>
+            <EditText 
+                android:id="@id/edt_login_2"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_margin="@dimen/height_1_100"
+                android:layout_marginTop="@dimen/height_2_100"
+                android:textColorHint="@color/white_light" 
+                android:background="@null"
+                android:singleLine="true"
+                android:inputType="textPassword"
+                android:hint="@string/login_edit_password"/>
+            	
+        </LinearLayout>
+        
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/ll1"
+         android:layout_below="@+id/ll"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/height_4_100"
+        android:layout_marginTop="@dimen/height_2_100" >
+
+        <CheckBox
+            android:id="@id/cb_login"
+            style="@style/CustomCheckboxTheme"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/height_1_100"
+             />
+
+        <TextView
+            android:layout_marginTop="1dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+           android:layout_marginLeft="@dimen/height_2_100"
+
+            android:text="@string/login_checkbox"
+            android:textColor="#004B97"
+            android:textSize="@dimen/text_big_size" />
+    </LinearLayout>
+
+    <Button
+        android:layout_below="@+id/ll1"
+        android:id="@id/btn_login"
+        android:background="@drawable/btn_login"
+        android:layout_width="fill_parent"
+        android:layout_height="50dp"
+        android:layout_marginLeft="@dimen/height_4_100"
+        android:layout_marginRight="@dimen/height_4_100"       
+        android:layout_marginTop="@dimen/height_4_100"
+        android:text="@string/login"
+        android:textColor="@color/white_light"
+        android:textStyle="bold"
+        android:textSize="@dimen/text_big_size"/>
+    <TextView
+        android:visibility="gone"
+        android:gravity="bottom"
+        android:id="@+id/tv_version"
+        android:layout_marginBottom="1dp"
+        android:paddingLeft="@dimen/height_2_100"
+        android:text="版本信息                "
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/shape_version_bk"/>
+
+</LinearLayout>

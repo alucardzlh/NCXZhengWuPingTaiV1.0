@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginLeft="@dimen/height_1_100"
+    android:layout_marginRight="@dimen/height_1_100"
+    android:layout_marginTop="@dimen/height_2_100"
+    android:background="@drawable/linearlayout"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/height_2_100"
+        android:layout_marginRight="@dimen/height_2_100"
+        android:layout_marginTop="@dimen/height_2_100"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:gravity="left"
+            android:layout_weight="2"
+            android:text="@string/buyushouliyuanyin"
+            android:textColor="@color/blue_2"
+            android:textSize="@dimen/text_small_size" />
+                <ImageView 
+            android:layout_width="0dp"
+            android:layout_weight="0.1"
+            android:layout_height="@dimen/height_1_100"
+            android:layout_marginTop="@dimen/height_1_100"
+            android:layout_marginRight="@dimen/height_1_100"
+            android:background="@drawable/icon_not_null"/>
+    </LinearLayout>
+
+    <EditText
+        android:id="@id/edt_search_1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:minHeight="@dimen/height_25_100"
+        android:layout_marginBottom="@dimen/height_2_100"
+        android:layout_marginLeft="@dimen/height_2_100"
+        android:layout_marginRight="@dimen/height_2_100"
+        android:background="@drawable/bg_edit_big"
+        android:gravity="top"
+        android:maxWidth="@dimen/width_88_100"
+        android:padding="@dimen/height_1_100" />
+
+</LinearLayout><!-- From: file:/F:/Studio_ZLH/NCXZhengWuPingTaiV1.0/nCXZhengWuPingTaiV10/src/main/res/layout/layout_yslyw_deny_bysl_reason.xml -->

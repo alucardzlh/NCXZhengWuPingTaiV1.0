@@ -1,0 +1,194 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginLeft="@dimen/height_1_100"
+    android:layout_marginRight="@dimen/height_1_100"
+    android:background="@drawable/linearlayout"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:background="@drawable/custom_fragment_tt" >
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:text="开始业务"
+                android:textColor="#FFFFFF" />
+        </LinearLayout>
+    </RelativeLayout>
+
+    <View
+        android:layout_width="fill_parent"
+        android:layout_height="1dp"
+        android:background="#3293DB" />
+
+    <LinearLayout
+        android:id="@id/search_rll1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/height_1_100"
+        android:layout_marginRight="@dimen/height_2_100"
+        android:layout_marginTop="@dimen/height_2_100"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="@string/search_apply_name"
+            android:textColor="@color/black"
+            android:textSize="@dimen/text_middle_size" />
+
+        <TextView
+            android:id="@id/edt_search_1"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_weight="2"
+            android:background="@drawable/bg_edit"
+            android:gravity="center_vertical"
+            android:textColor="@color/black"
+            android:textSize="@dimen/text_middle_size"
+            android:paddingLeft="@dimen/height_1_100"
+            android:singleLine="true" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@id/search_rll2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/height_1_100"
+        android:layout_marginRight="@dimen/height_2_100"
+        android:layout_marginTop="@dimen/width_1_100"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="@string/search_shenqingriqi_"
+            android:textColor="@color/black"
+            android:textSize="@dimen/text_middle_size" />
+
+        <TextView
+            android:id="@id/edt_search_2"
+            android:layout_width="0dp"
+                        android:gravity="center_vertical"
+            android:textColor="@color/black"
+            android:textSize="@dimen/text_middle_size"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_weight="2"
+            android:background="@drawable/bg_edit"
+            android:paddingLeft="@dimen/height_1_100"
+            android:singleLine="true" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@id/search_rll1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/height_1_100"
+        android:layout_marginRight="@dimen/height_2_100"
+        android:layout_marginTop="@dimen/height_2_100"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_weight="1.2"
+            android:gravity="center"
+            android:text="@string/zantingkaishishijian"
+            android:textColor="@color/black"
+            android:textSize="@dimen/text_middle_size" />
+
+        <TextView
+            android:id="@id/edt_search_3"
+            android:layout_width="0dp"
+                        android:gravity="center_vertical"
+            android:textColor="@color/black"
+            android:textSize="@dimen/text_middle_size"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_weight="2"
+            android:background="@drawable/bg_edit"
+            android:paddingLeft="@dimen/height_1_100" />
+    </LinearLayout>
+        <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/height_2_100"
+        android:layout_marginRight="@dimen/height_2_100"
+        android:layout_marginTop="@dimen/height_2_100"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="left"
+            android:text="@string/zantingyuanyin"
+            android:textColor="@color/black"
+            android:textSize="@dimen/text_small_size" />
+
+        <TextView
+            android:id="@id/edt_search_4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:minHeight="@dimen/height_20_100"
+            android:layout_marginBottom="@dimen/height_2_100"
+            android:layout_marginLeft="@dimen/height_1_100"
+            android:layout_marginRight="@dimen/height_1_100"
+            android:background="@drawable/bg_edit_big"
+            android:gravity="top"
+            android:textColor="@color/black"
+            android:textSize="@dimen/text_middle_size"
+            android:maxWidth="@dimen/width_88_100"
+            android:padding="@dimen/height_1_100" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/height_1_100"
+        android:layout_marginLeft="@dimen/height_4_100"
+        android:layout_marginRight="@dimen/height_4_100"
+        android:gravity="bottom"
+        android:orientation="horizontal" >
+        <Button
+            android:id="@id/btn_list_1"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/height_2_100"
+            android:layout_weight="1"
+            android:background="@drawable/custom_button"
+            android:gravity="center"
+            android:paddingBottom="@dimen/height_1_100"
+            android:text="@string/ensure"
+            android:textColor="#FFFFFF" />
+        <Button
+            android:id="@id/btn_list_2"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/height_2_100"
+            android:layout_weight="1"
+            android:background="@drawable/custom_button"
+            android:gravity="center"
+            android:paddingBottom="@dimen/height_1_100"
+            android:text="@string/fanhui"
+            android:textColor="#FFFFFF" />
+    </LinearLayout>
+</LinearLayout><!-- From: file:/F:/Studio_ZLH/NCXZhengWuPingTaiV1.0/nCXZhengWuPingTaiV10/src/main/res/layout/layout_spcl_dsp_ksyw_item.xml -->
